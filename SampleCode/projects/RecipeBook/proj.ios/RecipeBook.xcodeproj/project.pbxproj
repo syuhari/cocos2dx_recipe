@@ -151,6 +151,16 @@
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
+		C337F02E174C558F007C10DB /* robo_01.png in Resources */ = {isa = PBXBuildFile; fileRef = C337F02A174C558F007C10DB /* robo_01.png */; };
+		C337F02F174C558F007C10DB /* my_font.fnt in Resources */ = {isa = PBXBuildFile; fileRef = C337F02C174C558F007C10DB /* my_font.fnt */; };
+		C337F030174C558F007C10DB /* my_font.png in Resources */ = {isa = PBXBuildFile; fileRef = C337F02D174C558F007C10DB /* my_font.png */; };
+		C337F035174C55CB007C10DB /* Recipe87.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F031174C55CB007C10DB /* Recipe87.cpp */; };
+		C337F036174C55CB007C10DB /* Recipe88.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F033174C55CB007C10DB /* Recipe88.cpp */; };
+		C337F03B174C56A7007C10DB /* SSPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F038174C56A7007C10DB /* SSPlayer.cpp */; };
+		C337F03D174C56B5007C10DB /* outfile.c in Sources */ = {isa = PBXBuildFile; fileRef = C337F03C174C56B5007C10DB /* outfile.c */; };
+		C337F040174C5A10007C10DB /* my_particle.plist in Resources */ = {isa = PBXBuildFile; fileRef = C337F03F174C5A10007C10DB /* my_particle.plist */; };
+		C337F043174C5A36007C10DB /* Recipe83.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F041174C5A36007C10DB /* Recipe83.cpp */; };
+		C337F046174C5BC9007C10DB /* Recipe72.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F044174C5BC9007C10DB /* Recipe72.cpp */; };
 		C3851E38174BF07C00D08E3F /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3851E37174BF07C00D08E3F /* recipes.plist */; };
 		C3851E40174BFB5800D08E3F /* Recipe19.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3851E3E174BFB5800D08E3F /* Recipe19.cpp */; };
 		C3851E43174BFCE000D08E3F /* RecipeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3851E41174BFCE000D08E3F /* RecipeBase.cpp */; };
@@ -522,6 +532,22 @@
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C337F02A174C558F007C10DB /* robo_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robo_01.png; sourceTree = "<group>"; };
+		C337F02C174C558F007C10DB /* my_font.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_font.fnt; sourceTree = "<group>"; };
+		C337F02D174C558F007C10DB /* my_font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_font.png; sourceTree = "<group>"; };
+		C337F031174C55CB007C10DB /* Recipe87.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe87.cpp; sourceTree = "<group>"; };
+		C337F032174C55CB007C10DB /* Recipe87.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe87.h; sourceTree = "<group>"; };
+		C337F033174C55CB007C10DB /* Recipe88.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe88.cpp; sourceTree = "<group>"; };
+		C337F034174C55CB007C10DB /* Recipe88.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe88.h; sourceTree = "<group>"; };
+		C337F038174C56A7007C10DB /* SSPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SSPlayer.cpp; sourceTree = "<group>"; };
+		C337F039174C56A7007C10DB /* SSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPlayer.h; sourceTree = "<group>"; };
+		C337F03A174C56A7007C10DB /* SSPlayerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPlayerData.h; sourceTree = "<group>"; };
+		C337F03C174C56B5007C10DB /* outfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = outfile.c; sourceTree = "<group>"; };
+		C337F03F174C5A10007C10DB /* my_particle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = my_particle.plist; sourceTree = "<group>"; };
+		C337F041174C5A36007C10DB /* Recipe83.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe83.cpp; sourceTree = "<group>"; };
+		C337F042174C5A36007C10DB /* Recipe83.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe83.h; sourceTree = "<group>"; };
+		C337F044174C5BC9007C10DB /* Recipe72.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe72.cpp; sourceTree = "<group>"; };
+		C337F045174C5BC9007C10DB /* Recipe72.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe72.h; sourceTree = "<group>"; };
 		C3851E37174BF07C00D08E3F /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
 		C3851E39174BF93A00D08E3F /* scenes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = scenes.h; path = ../Classes/scenes.h; sourceTree = "<group>"; };
 		C3851E3E174BFB5800D08E3F /* Recipe19.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe19.cpp; sourceTree = "<group>"; };
@@ -1118,6 +1144,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C337F037174C56A7007C10DB /* Player */,
 				C3851E3D174BFB5800D08E3F /* recipes */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
@@ -1192,6 +1219,42 @@
 			path = ../Resources;
 			sourceTree = "<group>";
 		};
+		C337F029174C558F007C10DB /* recipe87 */ = {
+			isa = PBXGroup;
+			children = (
+				C337F02A174C558F007C10DB /* robo_01.png */,
+			);
+			path = recipe87;
+			sourceTree = "<group>";
+		};
+		C337F02B174C558F007C10DB /* recipe88 */ = {
+			isa = PBXGroup;
+			children = (
+				C337F02C174C558F007C10DB /* my_font.fnt */,
+				C337F02D174C558F007C10DB /* my_font.png */,
+			);
+			path = recipe88;
+			sourceTree = "<group>";
+		};
+		C337F037174C56A7007C10DB /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				C337F038174C56A7007C10DB /* SSPlayer.cpp */,
+				C337F039174C56A7007C10DB /* SSPlayer.h */,
+				C337F03A174C56A7007C10DB /* SSPlayerData.h */,
+			);
+			name = Player;
+			path = ../Classes/Player;
+			sourceTree = "<group>";
+		};
+		C337F03E174C5A10007C10DB /* recipe83 */ = {
+			isa = PBXGroup;
+			children = (
+				C337F03F174C5A10007C10DB /* my_particle.plist */,
+			);
+			path = recipe83;
+			sourceTree = "<group>";
+		};
 		C3851E3D174BFB5800D08E3F /* recipes */ = {
 			isa = PBXGroup;
 			children = (
@@ -1227,6 +1290,15 @@
 				C3851F25174C170D00D08E3F /* Recipe43.h */,
 				C3851F2C174C199C00D08E3F /* Recipe44.cpp */,
 				C3851F2D174C199D00D08E3F /* Recipe44.h */,
+				C337F044174C5BC9007C10DB /* Recipe72.cpp */,
+				C337F045174C5BC9007C10DB /* Recipe72.h */,
+				C337F041174C5A36007C10DB /* Recipe83.cpp */,
+				C337F042174C5A36007C10DB /* Recipe83.h */,
+				C337F031174C55CB007C10DB /* Recipe87.cpp */,
+				C337F032174C55CB007C10DB /* Recipe87.h */,
+				C337F03C174C56B5007C10DB /* outfile.c */,
+				C337F033174C55CB007C10DB /* Recipe88.cpp */,
+				C337F034174C55CB007C10DB /* Recipe88.h */,
 			);
 			name = recipes;
 			path = ../Classes/recipes;
@@ -1244,6 +1316,9 @@
 				C3851F12174C139C00D08E3F /* recipe38 */,
 				C3851F1F174C152600D08E3F /* recipe42 */,
 				C3851F27174C197B00D08E3F /* recipe44 */,
+				C337F03E174C5A10007C10DB /* recipe83 */,
+				C337F029174C558F007C10DB /* recipe87 */,
+				C337F02B174C558F007C10DB /* recipe88 */,
 				C3851E4B174C02A300D08E3F /* test.png */,
 			);
 			path = recipes;
@@ -1472,6 +1547,10 @@
 				C3851F31174C1A3300D08E3F /* texture.plist in Resources */,
 				C3851F32174C1A3300D08E3F /* texture.png in Resources */,
 				C3851F34174C1AEF00D08E3F /* button9.png in Resources */,
+				C337F02E174C558F007C10DB /* robo_01.png in Resources */,
+				C337F02F174C558F007C10DB /* my_font.fnt in Resources */,
+				C337F030174C558F007C10DB /* my_font.png in Resources */,
+				C337F040174C5A10007C10DB /* my_particle.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1628,6 +1707,12 @@
 				C3851F1E174C14F200D08E3F /* Recipe42.cpp in Sources */,
 				C3851F26174C170E00D08E3F /* Recipe43.cpp in Sources */,
 				C3851F2E174C199E00D08E3F /* Recipe44.cpp in Sources */,
+				C337F035174C55CB007C10DB /* Recipe87.cpp in Sources */,
+				C337F036174C55CB007C10DB /* Recipe88.cpp in Sources */,
+				C337F03B174C56A7007C10DB /* SSPlayer.cpp in Sources */,
+				C337F03D174C56B5007C10DB /* outfile.c in Sources */,
+				C337F043174C5A36007C10DB /* Recipe83.cpp in Sources */,
+				C337F046174C5BC9007C10DB /* Recipe72.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

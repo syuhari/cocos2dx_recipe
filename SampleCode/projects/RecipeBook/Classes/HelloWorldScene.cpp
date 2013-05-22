@@ -161,6 +161,57 @@ void HelloWorld::nextScene(int nIndex) {
         case 44:
             scene = Recipe44::scene();
             break;
+        case 62:
+            // TODO: 広告表示
+            //scene = Recipe44::scene();
+        case 70:
+            // TODO: 物理エンジン
+            //scene = Recipe44::scene();
+            break;
+        case 72:
+            // 簡易3D
+            scene = Recipe72::scene();
+            break;
+        case 74:
+            // TODO: タイルマップ
+            //scene = Recipe44::scene();
+            break;
+        case 80:
+            // TODO: テクスチャアトラス
+            //scene = Recipe44::scene();
+            break;
+        case 81:
+            // TODO: 非同期テクスチャアトラス
+            //scene = Recipe44::scene();
+            break;
+        case 82:
+            // TODO: PVR テクスチャアトラス
+            //scene = Recipe44::scene();
+            break;
+        case 83:
+            // パーティクル
+            scene = Recipe83::scene();
+            break;
+        case 84:
+            // TODO: Physics Editor
+            //scene = Recipe44::scene();
+            break;
+        case 85:
+            // TODO: LevelHelper
+            //scene = Recipe44::scene();
+            break;
+        case 86:
+            // TODO: CocosBuilder
+            //scene = Recipe44::scene();
+            break;
+        case 87:
+            // SpriteStudio
+            scene = Recipe87::scene();
+            break;
+        case 88:
+            // Glypy Designer
+            scene = Recipe88::scene();
+            break;
         default:
             break;
     }

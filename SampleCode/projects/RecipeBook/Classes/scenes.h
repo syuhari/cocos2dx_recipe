@@ -24,5 +24,9 @@
 #include "Recipe42.h"
 #include "Recipe43.h"
 #include "Recipe44.h"
+#include "Recipe72.h"
+#include "Recipe83.h"
+#include "Recipe87.h"
+#include "Recipe88.h"
 
 #endif
