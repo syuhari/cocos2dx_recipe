@@ -161,6 +161,59 @@
 		C337F040174C5A10007C10DB /* my_particle.plist in Resources */ = {isa = PBXBuildFile; fileRef = C337F03F174C5A10007C10DB /* my_particle.plist */; };
 		C337F043174C5A36007C10DB /* Recipe83.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F041174C5A36007C10DB /* Recipe83.cpp */; };
 		C337F046174C5BC9007C10DB /* Recipe72.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F044174C5BC9007C10DB /* Recipe72.cpp */; };
+		C337F049174C5DF6007C10DB /* Recipe70.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F047174C5DF6007C10DB /* Recipe70.cpp */; };
+		C337F04C174C5E07007C10DB /* GLES-Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F04A174C5E07007C10DB /* GLES-Render.cpp */; };
+		C337F04F174C611E007C10DB /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = C337F04E174C611E007C10DB /* blocks.png */; };
+		C337F054174C7A25007C10DB /* desert.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C337F051174C7A25007C10DB /* desert.tmx */; };
+		C337F055174C7A25007C10DB /* desert.tsx in Resources */ = {isa = PBXBuildFile; fileRef = C337F052174C7A25007C10DB /* desert.tsx */; };
+		C337F056174C7A25007C10DB /* tmw_desert_spacing.png in Resources */ = {isa = PBXBuildFile; fileRef = C337F053174C7A25007C10DB /* tmw_desert_spacing.png */; };
+		C337F059174C7A4B007C10DB /* Recipe74.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F057174C7A4B007C10DB /* Recipe74.cpp */; };
+		C337F05C174C7BFD007C10DB /* Recipe80.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F05A174C7BFD007C10DB /* Recipe80.cpp */; };
+		C337F060174C7CC1007C10DB /* uhhoi.plist in Resources */ = {isa = PBXBuildFile; fileRef = C337F05E174C7CC1007C10DB /* uhhoi.plist */; };
+		C337F061174C7CC1007C10DB /* uhhoi.png in Resources */ = {isa = PBXBuildFile; fileRef = C337F05F174C7CC1007C10DB /* uhhoi.png */; };
+		C337F064174C7D29007C10DB /* Recipe81.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F062174C7D29007C10DB /* Recipe81.cpp */; };
+		C337F067174C7DF0007C10DB /* Recipe82.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F065174C7DF0007C10DB /* Recipe82.cpp */; };
+		C337F06C174C7E46007C10DB /* uhhoi.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = C337F06A174C7E46007C10DB /* uhhoi.pvr.ccz */; };
+		C337F06E174C7E8D007C10DB /* uhhoi_pvr.plist in Resources */ = {isa = PBXBuildFile; fileRef = C337F06D174C7E8D007C10DB /* uhhoi_pvr.plist */; };
+		C337F071174C7FD2007C10DB /* Recipe84.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F06F174C7FD1007C10DB /* Recipe84.cpp */; };
+		C337F075174C7FE3007C10DB /* gear.plist in Resources */ = {isa = PBXBuildFile; fileRef = C337F073174C7FE3007C10DB /* gear.plist */; };
+		C337F076174C7FE3007C10DB /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = C337F074174C7FE3007C10DB /* gear.png */; };
+		C337F079174C80BC007C10DB /* GB2ShapeCache-x.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F077174C80BC007C10DB /* GB2ShapeCache-x.cpp */; };
+		C337F07C174C8327007C10DB /* Recipe85.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F07A174C8327007C10DB /* Recipe85.cpp */; };
+		C337F083174C833A007C10DB /* gear.pshs in Resources */ = {isa = PBXBuildFile; fileRef = C337F07E174C833A007C10DB /* gear.pshs */; };
+		C337F084174C833A007C10DB /* gear_parts-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C337F07F174C833A007C10DB /* gear_parts-hd.png */; };
+		C337F085174C833A007C10DB /* gear_parts.png in Resources */ = {isa = PBXBuildFile; fileRef = C337F080174C833A007C10DB /* gear_parts.png */; };
+		C337F086174C833A007C10DB /* level1.plhs in Resources */ = {isa = PBXBuildFile; fileRef = C337F081174C833A007C10DB /* level1.plhs */; };
+		C337F087174C833A007C10DB /* Recipe85.lhproject in Resources */ = {isa = PBXBuildFile; fileRef = C337F082174C833A007C10DB /* Recipe85.lhproject */; };
+		C337F0BE174C8349007C10DB /* TemporaryDummyClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F08C174C8349007C10DB /* TemporaryDummyClass.cpp */; };
+		C337F0BF174C8349007C10DB /* LevelHelperLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F08E174C8349007C10DB /* LevelHelperLoader.cpp */; };
+		C337F0C0174C8349007C10DB /* LICENSE_LevelHelper.txt in Resources */ = {isa = PBXBuildFile; fileRef = C337F091174C8349007C10DB /* LICENSE_LevelHelper.txt */; };
+		C337F0C1174C8349007C10DB /* LHAnimationNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F093174C8349007C10DB /* LHAnimationNode.cpp */; };
+		C337F0C2174C8349007C10DB /* LHBatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F095174C8349007C10DB /* LHBatch.cpp */; };
+		C337F0C3174C8349007C10DB /* LHBezier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F097174C8349007C10DB /* LHBezier.cpp */; };
+		C337F0C4174C8349007C10DB /* LHContactInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F099174C8349007C10DB /* LHContactInfo.cpp */; };
+		C337F0C5174C8349007C10DB /* LHContactListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F09B174C8349007C10DB /* LHContactListener.cpp */; };
+		C337F0C6174C8349007C10DB /* LHContactNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F09D174C8349007C10DB /* LHContactNode.cpp */; };
+		C337F0C7174C8349007C10DB /* LHCustomSpriteMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F09F174C8349007C10DB /* LHCustomSpriteMgr.cpp */; };
+		C337F0C8174C8349007C10DB /* LHCuttingEngineMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0A1174C8349007C10DB /* LHCuttingEngineMgr.cpp */; };
+		C337F0C9174C8349007C10DB /* LHFixture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0A3174C8349007C10DB /* LHFixture.cpp */; };
+		C337F0CA174C8349007C10DB /* LHJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0A5174C8349007C10DB /* LHJoint.cpp */; };
+		C337F0CB174C8349007C10DB /* LHLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0A7174C8349007C10DB /* LHLayer.cpp */; };
+		C337F0CC174C8349007C10DB /* LHNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0A9174C8349007C10DB /* LHNode.cpp */; };
+		C337F0CD174C8349007C10DB /* LHParallaxNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0AB174C8349007C10DB /* LHParallaxNode.cpp */; };
+		C337F0CE174C8349007C10DB /* LHPathNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0AD174C8349007C10DB /* LHPathNode.cpp */; };
+		C337F0CF174C8349007C10DB /* LHSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0AF174C8349007C10DB /* LHSettings.cpp */; };
+		C337F0D0174C8349007C10DB /* LHSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0B1174C8349007C10DB /* LHSprite.cpp */; };
+		C337F0D1174C8349007C10DB /* LHTouchMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0B3174C8349007C10DB /* LHTouchMgr.cpp */; };
+		C337F0D2174C8349007C10DB /* SHDocumentLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0B5174C8349007C10DB /* SHDocumentLoader.cpp */; };
+		C337F0D3174C8349007C10DB /* LHArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0B8174C8349007C10DB /* LHArray.cpp */; };
+		C337F0D4174C8349007C10DB /* LHDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0BA174C8349007C10DB /* LHDictionary.cpp */; };
+		C337F0D5174C8349007C10DB /* LHObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0BC174C8349007C10DB /* LHObject.cpp */; };
+		C337F0D9174C8685007C10DB /* Recipe86.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0D7174C8685007C10DB /* Recipe86.cpp */; };
+		C337F0DC174C8692007C10DB /* CCTestLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0DA174C8692007C10DB /* CCTestLayer.cpp */; };
+		C337F0E0174C86A8007C10DB /* CCTestLayer.ccb in Resources */ = {isa = PBXBuildFile; fileRef = C337F0DE174C86A8007C10DB /* CCTestLayer.ccb */; };
+		C337F0E1174C86A8007C10DB /* CCTestLayer.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = C337F0DF174C86A8007C10DB /* CCTestLayer.ccbi */; };
+		C337F0E4174C8A1C007C10DB /* Recipe39.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C337F0E2174C8A1B007C10DB /* Recipe39.cpp */; };
 		C3851E38174BF07C00D08E3F /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3851E37174BF07C00D08E3F /* recipes.plist */; };
 		C3851E40174BFB5800D08E3F /* Recipe19.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3851E3E174BFB5800D08E3F /* Recipe19.cpp */; };
 		C3851E43174BFCE000D08E3F /* RecipeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3851E41174BFCE000D08E3F /* RecipeBase.cpp */; };
@@ -548,6 +601,97 @@
 		C337F042174C5A36007C10DB /* Recipe83.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe83.h; sourceTree = "<group>"; };
 		C337F044174C5BC9007C10DB /* Recipe72.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe72.cpp; sourceTree = "<group>"; };
 		C337F045174C5BC9007C10DB /* Recipe72.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe72.h; sourceTree = "<group>"; };
+		C337F047174C5DF6007C10DB /* Recipe70.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe70.cpp; sourceTree = "<group>"; };
+		C337F048174C5DF6007C10DB /* Recipe70.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe70.h; sourceTree = "<group>"; };
+		C337F04A174C5E07007C10DB /* GLES-Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "GLES-Render.cpp"; path = "../GLES-Render.cpp"; sourceTree = "<group>"; };
+		C337F04B174C5E07007C10DB /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GLES-Render.h"; path = "../GLES-Render.h"; sourceTree = "<group>"; };
+		C337F04E174C611E007C10DB /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blocks.png; sourceTree = "<group>"; };
+		C337F051174C7A25007C10DB /* desert.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = desert.tmx; sourceTree = "<group>"; };
+		C337F052174C7A25007C10DB /* desert.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = desert.tsx; sourceTree = "<group>"; };
+		C337F053174C7A25007C10DB /* tmw_desert_spacing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tmw_desert_spacing.png; sourceTree = "<group>"; };
+		C337F057174C7A4B007C10DB /* Recipe74.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe74.cpp; sourceTree = "<group>"; };
+		C337F058174C7A4B007C10DB /* Recipe74.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe74.h; sourceTree = "<group>"; };
+		C337F05A174C7BFD007C10DB /* Recipe80.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe80.cpp; sourceTree = "<group>"; };
+		C337F05B174C7BFD007C10DB /* Recipe80.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe80.h; sourceTree = "<group>"; };
+		C337F05E174C7CC1007C10DB /* uhhoi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = uhhoi.plist; sourceTree = "<group>"; };
+		C337F05F174C7CC1007C10DB /* uhhoi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uhhoi.png; sourceTree = "<group>"; };
+		C337F062174C7D29007C10DB /* Recipe81.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe81.cpp; sourceTree = "<group>"; };
+		C337F063174C7D29007C10DB /* Recipe81.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe81.h; sourceTree = "<group>"; };
+		C337F065174C7DF0007C10DB /* Recipe82.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe82.cpp; sourceTree = "<group>"; };
+		C337F066174C7DF0007C10DB /* Recipe82.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe82.h; sourceTree = "<group>"; };
+		C337F06A174C7E46007C10DB /* uhhoi.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = uhhoi.pvr.ccz; sourceTree = "<group>"; };
+		C337F06D174C7E8D007C10DB /* uhhoi_pvr.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = uhhoi_pvr.plist; sourceTree = "<group>"; };
+		C337F06F174C7FD1007C10DB /* Recipe84.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe84.cpp; sourceTree = "<group>"; };
+		C337F070174C7FD1007C10DB /* Recipe84.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe84.h; sourceTree = "<group>"; };
+		C337F073174C7FE3007C10DB /* gear.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gear.plist; sourceTree = "<group>"; };
+		C337F074174C7FE3007C10DB /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		C337F077174C80BC007C10DB /* GB2ShapeCache-x.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "GB2ShapeCache-x.cpp"; path = "../GB2ShapeCache-x.cpp"; sourceTree = "<group>"; };
+		C337F078174C80BC007C10DB /* GB2ShapeCache-x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GB2ShapeCache-x.h"; path = "../GB2ShapeCache-x.h"; sourceTree = "<group>"; };
+		C337F07A174C8327007C10DB /* Recipe85.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe85.cpp; sourceTree = "<group>"; };
+		C337F07B174C8327007C10DB /* Recipe85.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe85.h; sourceTree = "<group>"; };
+		C337F07E174C833A007C10DB /* gear.pshs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gear.pshs; sourceTree = "<group>"; };
+		C337F07F174C833A007C10DB /* gear_parts-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear_parts-hd.png"; sourceTree = "<group>"; };
+		C337F080174C833A007C10DB /* gear_parts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear_parts.png; sourceTree = "<group>"; };
+		C337F081174C833A007C10DB /* level1.plhs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.plhs; sourceTree = "<group>"; };
+		C337F082174C833A007C10DB /* Recipe85.lhproject */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Recipe85.lhproject; sourceTree = "<group>"; };
+		C337F08A174C8349007C10DB /* LHAbstractClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHAbstractClass.h; sourceTree = "<group>"; };
+		C337F08B174C8349007C10DB /* LHCustomClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCustomClasses.h; sourceTree = "<group>"; };
+		C337F08C174C8349007C10DB /* TemporaryDummyClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TemporaryDummyClass.cpp; sourceTree = "<group>"; };
+		C337F08D174C8349007C10DB /* TemporaryDummyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemporaryDummyClass.h; sourceTree = "<group>"; };
+		C337F08E174C8349007C10DB /* LevelHelperLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LevelHelperLoader.cpp; sourceTree = "<group>"; };
+		C337F08F174C8349007C10DB /* LevelHelperLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelHelperLoader.h; sourceTree = "<group>"; };
+		C337F090174C8349007C10DB /* lhConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhConfig.h; sourceTree = "<group>"; };
+		C337F091174C8349007C10DB /* LICENSE_LevelHelper.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_LevelHelper.txt; sourceTree = "<group>"; };
+		C337F093174C8349007C10DB /* LHAnimationNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHAnimationNode.cpp; sourceTree = "<group>"; };
+		C337F094174C8349007C10DB /* LHAnimationNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHAnimationNode.h; sourceTree = "<group>"; };
+		C337F095174C8349007C10DB /* LHBatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHBatch.cpp; sourceTree = "<group>"; };
+		C337F096174C8349007C10DB /* LHBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHBatch.h; sourceTree = "<group>"; };
+		C337F097174C8349007C10DB /* LHBezier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHBezier.cpp; sourceTree = "<group>"; };
+		C337F098174C8349007C10DB /* LHBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHBezier.h; sourceTree = "<group>"; };
+		C337F099174C8349007C10DB /* LHContactInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHContactInfo.cpp; sourceTree = "<group>"; };
+		C337F09A174C8349007C10DB /* LHContactInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHContactInfo.h; sourceTree = "<group>"; };
+		C337F09B174C8349007C10DB /* LHContactListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHContactListener.cpp; sourceTree = "<group>"; };
+		C337F09C174C8349007C10DB /* LHContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHContactListener.h; sourceTree = "<group>"; };
+		C337F09D174C8349007C10DB /* LHContactNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHContactNode.cpp; sourceTree = "<group>"; };
+		C337F09E174C8349007C10DB /* LHContactNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHContactNode.h; sourceTree = "<group>"; };
+		C337F09F174C8349007C10DB /* LHCustomSpriteMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHCustomSpriteMgr.cpp; sourceTree = "<group>"; };
+		C337F0A0174C8349007C10DB /* LHCustomSpriteMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCustomSpriteMgr.h; sourceTree = "<group>"; };
+		C337F0A1174C8349007C10DB /* LHCuttingEngineMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHCuttingEngineMgr.cpp; sourceTree = "<group>"; };
+		C337F0A2174C8349007C10DB /* LHCuttingEngineMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCuttingEngineMgr.h; sourceTree = "<group>"; };
+		C337F0A3174C8349007C10DB /* LHFixture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHFixture.cpp; sourceTree = "<group>"; };
+		C337F0A4174C8349007C10DB /* LHFixture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHFixture.h; sourceTree = "<group>"; };
+		C337F0A5174C8349007C10DB /* LHJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHJoint.cpp; sourceTree = "<group>"; };
+		C337F0A6174C8349007C10DB /* LHJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHJoint.h; sourceTree = "<group>"; };
+		C337F0A7174C8349007C10DB /* LHLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHLayer.cpp; sourceTree = "<group>"; };
+		C337F0A8174C8349007C10DB /* LHLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHLayer.h; sourceTree = "<group>"; };
+		C337F0A9174C8349007C10DB /* LHNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHNode.cpp; sourceTree = "<group>"; };
+		C337F0AA174C8349007C10DB /* LHNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHNode.h; sourceTree = "<group>"; };
+		C337F0AB174C8349007C10DB /* LHParallaxNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHParallaxNode.cpp; sourceTree = "<group>"; };
+		C337F0AC174C8349007C10DB /* LHParallaxNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHParallaxNode.h; sourceTree = "<group>"; };
+		C337F0AD174C8349007C10DB /* LHPathNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHPathNode.cpp; sourceTree = "<group>"; };
+		C337F0AE174C8349007C10DB /* LHPathNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHPathNode.h; sourceTree = "<group>"; };
+		C337F0AF174C8349007C10DB /* LHSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHSettings.cpp; sourceTree = "<group>"; };
+		C337F0B0174C8349007C10DB /* LHSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHSettings.h; sourceTree = "<group>"; };
+		C337F0B1174C8349007C10DB /* LHSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHSprite.cpp; sourceTree = "<group>"; };
+		C337F0B2174C8349007C10DB /* LHSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHSprite.h; sourceTree = "<group>"; };
+		C337F0B3174C8349007C10DB /* LHTouchMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHTouchMgr.cpp; sourceTree = "<group>"; };
+		C337F0B4174C8349007C10DB /* LHTouchMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHTouchMgr.h; sourceTree = "<group>"; };
+		C337F0B5174C8349007C10DB /* SHDocumentLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SHDocumentLoader.cpp; sourceTree = "<group>"; };
+		C337F0B6174C8349007C10DB /* SHDocumentLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDocumentLoader.h; sourceTree = "<group>"; };
+		C337F0B8174C8349007C10DB /* LHArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHArray.cpp; sourceTree = "<group>"; };
+		C337F0B9174C8349007C10DB /* LHArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHArray.h; sourceTree = "<group>"; };
+		C337F0BA174C8349007C10DB /* LHDictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHDictionary.cpp; sourceTree = "<group>"; };
+		C337F0BB174C8349007C10DB /* LHDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHDictionary.h; sourceTree = "<group>"; };
+		C337F0BC174C8349007C10DB /* LHObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LHObject.cpp; sourceTree = "<group>"; };
+		C337F0BD174C8349007C10DB /* LHObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHObject.h; sourceTree = "<group>"; };
+		C337F0D7174C8685007C10DB /* Recipe86.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe86.cpp; sourceTree = "<group>"; };
+		C337F0D8174C8685007C10DB /* Recipe86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe86.h; sourceTree = "<group>"; };
+		C337F0DA174C8692007C10DB /* CCTestLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCTestLayer.cpp; sourceTree = "<group>"; };
+		C337F0DB174C8692007C10DB /* CCTestLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTestLayer.h; sourceTree = "<group>"; };
+		C337F0DE174C86A8007C10DB /* CCTestLayer.ccb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CCTestLayer.ccb; sourceTree = "<group>"; };
+		C337F0DF174C86A8007C10DB /* CCTestLayer.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = CCTestLayer.ccbi; sourceTree = "<group>"; };
+		C337F0E2174C8A1B007C10DB /* Recipe39.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe39.cpp; sourceTree = "<group>"; };
+		C337F0E3174C8A1B007C10DB /* Recipe39.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe39.h; sourceTree = "<group>"; };
 		C3851E37174BF07C00D08E3F /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
 		C3851E39174BF93A00D08E3F /* scenes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = scenes.h; path = ../Classes/scenes.h; sourceTree = "<group>"; };
 		C3851E3E174BFB5800D08E3F /* Recipe19.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe19.cpp; sourceTree = "<group>"; };
@@ -1144,6 +1288,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C337F088174C8349007C10DB /* LevelHelper */,
 				C337F037174C56A7007C10DB /* Player */,
 				C3851E3D174BFB5800D08E3F /* recipes */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
@@ -1255,6 +1400,154 @@
 			path = recipe83;
 			sourceTree = "<group>";
 		};
+		C337F04D174C611E007C10DB /* recipe70 */ = {
+			isa = PBXGroup;
+			children = (
+				C337F04E174C611E007C10DB /* blocks.png */,
+			);
+			path = recipe70;
+			sourceTree = "<group>";
+		};
+		C337F050174C7A25007C10DB /* recipe74 */ = {
+			isa = PBXGroup;
+			children = (
+				C337F051174C7A25007C10DB /* desert.tmx */,
+				C337F052174C7A25007C10DB /* desert.tsx */,
+				C337F053174C7A25007C10DB /* tmw_desert_spacing.png */,
+			);
+			path = recipe74;
+			sourceTree = "<group>";
+		};
+		C337F05D174C7CC1007C10DB /* recipe80 */ = {
+			isa = PBXGroup;
+			children = (
+				C337F05E174C7CC1007C10DB /* uhhoi.plist */,
+				C337F05F174C7CC1007C10DB /* uhhoi.png */,
+			);
+			path = recipe80;
+			sourceTree = "<group>";
+		};
+		C337F068174C7E46007C10DB /* recipe82 */ = {
+			isa = PBXGroup;
+			children = (
+				C337F06D174C7E8D007C10DB /* uhhoi_pvr.plist */,
+				C337F06A174C7E46007C10DB /* uhhoi.pvr.ccz */,
+			);
+			path = recipe82;
+			sourceTree = "<group>";
+		};
+		C337F072174C7FE3007C10DB /* recipe84 */ = {
+			isa = PBXGroup;
+			children = (
+				C337F073174C7FE3007C10DB /* gear.plist */,
+				C337F074174C7FE3007C10DB /* gear.png */,
+			);
+			path = recipe84;
+			sourceTree = "<group>";
+		};
+		C337F07D174C833A007C10DB /* recipe85 */ = {
+			isa = PBXGroup;
+			children = (
+				C337F07E174C833A007C10DB /* gear.pshs */,
+				C337F07F174C833A007C10DB /* gear_parts-hd.png */,
+				C337F080174C833A007C10DB /* gear_parts.png */,
+				C337F081174C833A007C10DB /* level1.plhs */,
+				C337F082174C833A007C10DB /* Recipe85.lhproject */,
+			);
+			path = recipe85;
+			sourceTree = "<group>";
+		};
+		C337F088174C8349007C10DB /* LevelHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C337F089174C8349007C10DB /* CustomClasses */,
+				C337F08E174C8349007C10DB /* LevelHelperLoader.cpp */,
+				C337F08F174C8349007C10DB /* LevelHelperLoader.h */,
+				C337F090174C8349007C10DB /* lhConfig.h */,
+				C337F091174C8349007C10DB /* LICENSE_LevelHelper.txt */,
+				C337F092174C8349007C10DB /* Nodes */,
+				C337F0B7174C8349007C10DB /* Utilities */,
+			);
+			name = LevelHelper;
+			path = ../Classes/LevelHelper;
+			sourceTree = "<group>";
+		};
+		C337F089174C8349007C10DB /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C337F08A174C8349007C10DB /* LHAbstractClass.h */,
+				C337F08B174C8349007C10DB /* LHCustomClasses.h */,
+				C337F08C174C8349007C10DB /* TemporaryDummyClass.cpp */,
+				C337F08D174C8349007C10DB /* TemporaryDummyClass.h */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		C337F092174C8349007C10DB /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				C337F093174C8349007C10DB /* LHAnimationNode.cpp */,
+				C337F094174C8349007C10DB /* LHAnimationNode.h */,
+				C337F095174C8349007C10DB /* LHBatch.cpp */,
+				C337F096174C8349007C10DB /* LHBatch.h */,
+				C337F097174C8349007C10DB /* LHBezier.cpp */,
+				C337F098174C8349007C10DB /* LHBezier.h */,
+				C337F099174C8349007C10DB /* LHContactInfo.cpp */,
+				C337F09A174C8349007C10DB /* LHContactInfo.h */,
+				C337F09B174C8349007C10DB /* LHContactListener.cpp */,
+				C337F09C174C8349007C10DB /* LHContactListener.h */,
+				C337F09D174C8349007C10DB /* LHContactNode.cpp */,
+				C337F09E174C8349007C10DB /* LHContactNode.h */,
+				C337F09F174C8349007C10DB /* LHCustomSpriteMgr.cpp */,
+				C337F0A0174C8349007C10DB /* LHCustomSpriteMgr.h */,
+				C337F0A1174C8349007C10DB /* LHCuttingEngineMgr.cpp */,
+				C337F0A2174C8349007C10DB /* LHCuttingEngineMgr.h */,
+				C337F0A3174C8349007C10DB /* LHFixture.cpp */,
+				C337F0A4174C8349007C10DB /* LHFixture.h */,
+				C337F0A5174C8349007C10DB /* LHJoint.cpp */,
+				C337F0A6174C8349007C10DB /* LHJoint.h */,
+				C337F0A7174C8349007C10DB /* LHLayer.cpp */,
+				C337F0A8174C8349007C10DB /* LHLayer.h */,
+				C337F0A9174C8349007C10DB /* LHNode.cpp */,
+				C337F0AA174C8349007C10DB /* LHNode.h */,
+				C337F0AB174C8349007C10DB /* LHParallaxNode.cpp */,
+				C337F0AC174C8349007C10DB /* LHParallaxNode.h */,
+				C337F0AD174C8349007C10DB /* LHPathNode.cpp */,
+				C337F0AE174C8349007C10DB /* LHPathNode.h */,
+				C337F0AF174C8349007C10DB /* LHSettings.cpp */,
+				C337F0B0174C8349007C10DB /* LHSettings.h */,
+				C337F0B1174C8349007C10DB /* LHSprite.cpp */,
+				C337F0B2174C8349007C10DB /* LHSprite.h */,
+				C337F0B3174C8349007C10DB /* LHTouchMgr.cpp */,
+				C337F0B4174C8349007C10DB /* LHTouchMgr.h */,
+				C337F0B5174C8349007C10DB /* SHDocumentLoader.cpp */,
+				C337F0B6174C8349007C10DB /* SHDocumentLoader.h */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		C337F0B7174C8349007C10DB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C337F0B8174C8349007C10DB /* LHArray.cpp */,
+				C337F0B9174C8349007C10DB /* LHArray.h */,
+				C337F0BA174C8349007C10DB /* LHDictionary.cpp */,
+				C337F0BB174C8349007C10DB /* LHDictionary.h */,
+				C337F0BC174C8349007C10DB /* LHObject.cpp */,
+				C337F0BD174C8349007C10DB /* LHObject.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C337F0DD174C86A8007C10DB /* recipe86 */ = {
+			isa = PBXGroup;
+			children = (
+				C337F0DE174C86A8007C10DB /* CCTestLayer.ccb */,
+				C337F0DF174C86A8007C10DB /* CCTestLayer.ccbi */,
+			);
+			path = recipe86;
+			sourceTree = "<group>";
+		};
 		C3851E3D174BFB5800D08E3F /* recipes */ = {
 			isa = PBXGroup;
 			children = (
@@ -1282,6 +1575,8 @@
 				C3851F0A174C102400D08E3F /* TapSprite.h */,
 				C3851F0F174C132900D08E3F /* ModalLayer.cpp */,
 				C3851F10174C132900D08E3F /* ModalLayer.h */,
+				C337F0E2174C8A1B007C10DB /* Recipe39.cpp */,
+				C337F0E3174C8A1B007C10DB /* Recipe39.h */,
 				C3851F19174C141C00D08E3F /* Recipe40.cpp */,
 				C3851F1A174C141D00D08E3F /* Recipe40.h */,
 				C3851F1C174C14F000D08E3F /* Recipe42.cpp */,
@@ -1290,10 +1585,32 @@
 				C3851F25174C170D00D08E3F /* Recipe43.h */,
 				C3851F2C174C199C00D08E3F /* Recipe44.cpp */,
 				C3851F2D174C199D00D08E3F /* Recipe44.h */,
+				C337F047174C5DF6007C10DB /* Recipe70.cpp */,
+				C337F048174C5DF6007C10DB /* Recipe70.h */,
 				C337F044174C5BC9007C10DB /* Recipe72.cpp */,
 				C337F045174C5BC9007C10DB /* Recipe72.h */,
+				C337F04A174C5E07007C10DB /* GLES-Render.cpp */,
+				C337F04B174C5E07007C10DB /* GLES-Render.h */,
+				C337F057174C7A4B007C10DB /* Recipe74.cpp */,
+				C337F058174C7A4B007C10DB /* Recipe74.h */,
+				C337F05A174C7BFD007C10DB /* Recipe80.cpp */,
+				C337F05B174C7BFD007C10DB /* Recipe80.h */,
+				C337F062174C7D29007C10DB /* Recipe81.cpp */,
+				C337F063174C7D29007C10DB /* Recipe81.h */,
+				C337F065174C7DF0007C10DB /* Recipe82.cpp */,
+				C337F066174C7DF0007C10DB /* Recipe82.h */,
 				C337F041174C5A36007C10DB /* Recipe83.cpp */,
 				C337F042174C5A36007C10DB /* Recipe83.h */,
+				C337F06F174C7FD1007C10DB /* Recipe84.cpp */,
+				C337F070174C7FD1007C10DB /* Recipe84.h */,
+				C337F077174C80BC007C10DB /* GB2ShapeCache-x.cpp */,
+				C337F078174C80BC007C10DB /* GB2ShapeCache-x.h */,
+				C337F07A174C8327007C10DB /* Recipe85.cpp */,
+				C337F07B174C8327007C10DB /* Recipe85.h */,
+				C337F0DA174C8692007C10DB /* CCTestLayer.cpp */,
+				C337F0DB174C8692007C10DB /* CCTestLayer.h */,
+				C337F0D7174C8685007C10DB /* Recipe86.cpp */,
+				C337F0D8174C8685007C10DB /* Recipe86.h */,
 				C337F031174C55CB007C10DB /* Recipe87.cpp */,
 				C337F032174C55CB007C10DB /* Recipe87.h */,
 				C337F03C174C56B5007C10DB /* outfile.c */,
@@ -1316,7 +1633,14 @@
 				C3851F12174C139C00D08E3F /* recipe38 */,
 				C3851F1F174C152600D08E3F /* recipe42 */,
 				C3851F27174C197B00D08E3F /* recipe44 */,
+				C337F04D174C611E007C10DB /* recipe70 */,
+				C337F050174C7A25007C10DB /* recipe74 */,
+				C337F05D174C7CC1007C10DB /* recipe80 */,
+				C337F068174C7E46007C10DB /* recipe82 */,
 				C337F03E174C5A10007C10DB /* recipe83 */,
+				C337F072174C7FE3007C10DB /* recipe84 */,
+				C337F07D174C833A007C10DB /* recipe85 */,
+				C337F0DD174C86A8007C10DB /* recipe86 */,
 				C337F029174C558F007C10DB /* recipe87 */,
 				C337F02B174C558F007C10DB /* recipe88 */,
 				C3851E4B174C02A300D08E3F /* test.png */,
@@ -1551,6 +1875,24 @@
 				C337F02F174C558F007C10DB /* my_font.fnt in Resources */,
 				C337F030174C558F007C10DB /* my_font.png in Resources */,
 				C337F040174C5A10007C10DB /* my_particle.plist in Resources */,
+				C337F04F174C611E007C10DB /* blocks.png in Resources */,
+				C337F054174C7A25007C10DB /* desert.tmx in Resources */,
+				C337F055174C7A25007C10DB /* desert.tsx in Resources */,
+				C337F056174C7A25007C10DB /* tmw_desert_spacing.png in Resources */,
+				C337F060174C7CC1007C10DB /* uhhoi.plist in Resources */,
+				C337F061174C7CC1007C10DB /* uhhoi.png in Resources */,
+				C337F06C174C7E46007C10DB /* uhhoi.pvr.ccz in Resources */,
+				C337F06E174C7E8D007C10DB /* uhhoi_pvr.plist in Resources */,
+				C337F075174C7FE3007C10DB /* gear.plist in Resources */,
+				C337F076174C7FE3007C10DB /* gear.png in Resources */,
+				C337F083174C833A007C10DB /* gear.pshs in Resources */,
+				C337F084174C833A007C10DB /* gear_parts-hd.png in Resources */,
+				C337F085174C833A007C10DB /* gear_parts.png in Resources */,
+				C337F086174C833A007C10DB /* level1.plhs in Resources */,
+				C337F087174C833A007C10DB /* Recipe85.lhproject in Resources */,
+				C337F0C0174C8349007C10DB /* LICENSE_LevelHelper.txt in Resources */,
+				C337F0E0174C86A8007C10DB /* CCTestLayer.ccb in Resources */,
+				C337F0E1174C86A8007C10DB /* CCTestLayer.ccbi in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1713,6 +2055,41 @@
 				C337F03D174C56B5007C10DB /* outfile.c in Sources */,
 				C337F043174C5A36007C10DB /* Recipe83.cpp in Sources */,
 				C337F046174C5BC9007C10DB /* Recipe72.cpp in Sources */,
+				C337F049174C5DF6007C10DB /* Recipe70.cpp in Sources */,
+				C337F04C174C5E07007C10DB /* GLES-Render.cpp in Sources */,
+				C337F059174C7A4B007C10DB /* Recipe74.cpp in Sources */,
+				C337F05C174C7BFD007C10DB /* Recipe80.cpp in Sources */,
+				C337F064174C7D29007C10DB /* Recipe81.cpp in Sources */,
+				C337F067174C7DF0007C10DB /* Recipe82.cpp in Sources */,
+				C337F071174C7FD2007C10DB /* Recipe84.cpp in Sources */,
+				C337F079174C80BC007C10DB /* GB2ShapeCache-x.cpp in Sources */,
+				C337F07C174C8327007C10DB /* Recipe85.cpp in Sources */,
+				C337F0BE174C8349007C10DB /* TemporaryDummyClass.cpp in Sources */,
+				C337F0BF174C8349007C10DB /* LevelHelperLoader.cpp in Sources */,
+				C337F0C1174C8349007C10DB /* LHAnimationNode.cpp in Sources */,
+				C337F0C2174C8349007C10DB /* LHBatch.cpp in Sources */,
+				C337F0C3174C8349007C10DB /* LHBezier.cpp in Sources */,
+				C337F0C4174C8349007C10DB /* LHContactInfo.cpp in Sources */,
+				C337F0C5174C8349007C10DB /* LHContactListener.cpp in Sources */,
+				C337F0C6174C8349007C10DB /* LHContactNode.cpp in Sources */,
+				C337F0C7174C8349007C10DB /* LHCustomSpriteMgr.cpp in Sources */,
+				C337F0C8174C8349007C10DB /* LHCuttingEngineMgr.cpp in Sources */,
+				C337F0C9174C8349007C10DB /* LHFixture.cpp in Sources */,
+				C337F0CA174C8349007C10DB /* LHJoint.cpp in Sources */,
+				C337F0CB174C8349007C10DB /* LHLayer.cpp in Sources */,
+				C337F0CC174C8349007C10DB /* LHNode.cpp in Sources */,
+				C337F0CD174C8349007C10DB /* LHParallaxNode.cpp in Sources */,
+				C337F0CE174C8349007C10DB /* LHPathNode.cpp in Sources */,
+				C337F0CF174C8349007C10DB /* LHSettings.cpp in Sources */,
+				C337F0D0174C8349007C10DB /* LHSprite.cpp in Sources */,
+				C337F0D1174C8349007C10DB /* LHTouchMgr.cpp in Sources */,
+				C337F0D2174C8349007C10DB /* SHDocumentLoader.cpp in Sources */,
+				C337F0D3174C8349007C10DB /* LHArray.cpp in Sources */,
+				C337F0D4174C8349007C10DB /* LHDictionary.cpp in Sources */,
+				C337F0D5174C8349007C10DB /* LHObject.cpp in Sources */,
+				C337F0D9174C8685007C10DB /* Recipe86.cpp in Sources */,
+				C337F0DC174C8692007C10DB /* CCTestLayer.cpp in Sources */,
+				C337F0E4174C8A1C007C10DB /* Recipe39.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

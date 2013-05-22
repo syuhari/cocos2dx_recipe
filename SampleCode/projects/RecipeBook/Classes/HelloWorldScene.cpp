@@ -143,14 +143,11 @@ void HelloWorld::nextScene(int nIndex) {
             break;
         }
         case 39:
-            // TODO
-            //scene = Recipe39::scene();
+            // 指でなぞったラインを描画
+            scene = Recipe39::scene();
             break;
         case 40:
             scene = Recipe40::scene();
-            break;
-        case 41:
-            // TODO
             break;
         case 42:
             scene = Recipe42::scene();
@@ -161,48 +158,45 @@ void HelloWorld::nextScene(int nIndex) {
         case 44:
             scene = Recipe44::scene();
             break;
-        case 62:
-            // TODO: 広告表示
-            //scene = Recipe44::scene();
         case 70:
-            // TODO: 物理エンジン
-            //scene = Recipe44::scene();
+            // 物理エンジン
+            scene = Recipe70::scene();
             break;
         case 72:
             // 簡易3D
             scene = Recipe72::scene();
             break;
         case 74:
-            // TODO: タイルマップ
-            //scene = Recipe44::scene();
+            // タイルマップ
+            scene = Recipe74::scene();
             break;
         case 80:
-            // TODO: テクスチャアトラス
-            //scene = Recipe44::scene();
+            // テクスチャアトラス
+            scene = Recipe80::scene();
             break;
         case 81:
-            // TODO: 非同期テクスチャアトラス
-            //scene = Recipe44::scene();
+            // 非同期テクスチャアトラス
+            scene = Recipe81::scene();
             break;
         case 82:
-            // TODO: PVR テクスチャアトラス
-            //scene = Recipe44::scene();
+            // PVR テクスチャアトラス
+            scene = Recipe82::scene();
             break;
         case 83:
             // パーティクル
             scene = Recipe83::scene();
             break;
         case 84:
-            // TODO: Physics Editor
-            //scene = Recipe44::scene();
+            // Physics Editor
+            scene = Recipe84::scene();
             break;
         case 85:
-            // TODO: LevelHelper
-            //scene = Recipe44::scene();
+            // LevelHelper
+            scene = Recipe85::scene();
             break;
         case 86:
-            // TODO: CocosBuilder
-            //scene = Recipe44::scene();
+            // CocosBuilder
+            scene = Recipe86::scene();
             break;
         case 87:
             // SpriteStudio

@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Bogdan Vladu</string>
+	<key>CreatedWith</key>
+	<string>SpriteHelper</string>
+	<key>SHEETS_INFO</key>
+	<array>
+		<dict>
+			<key>2HDSuffix</key>
+			<string>-ipadhd</string>
+			<key>AllowRotation</key>
+			<true/>
+			<key>Crop</key>
+			<false/>
+			<key>DropSprites</key>
+			<false/>
+			<key>HDSuffix</key>
+			<string>-hd</string>
+			<key>IsRendable</key>
+			<true/>
+			<key>MaxSheetSize</key>
+			<integer>4096</integer>
+			<key>NpotSize</key>
+			<string>{120, 172}</string>
+			<key>Padding</key>
+			<integer>8</integer>
+			<key>PixelFormat</key>
+			<integer>0</integer>
+			<key>SheetImage</key>
+			<string>gear_parts.png</string>
+			<key>SheetImage-HD</key>
+			<string>gear_parts-hd.png</string>
+			<key>SheetName</key>
+			<string>parts</string>
+			<key>SheetSceneImageName</key>
+			<string></string>
+			<key>Sheet_Sprites_Info</key>
+			<dict>
+				<key>circle</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va7wCAAAAAAQQMAAAAO/qE/IJFn5qOxGP
+					Xiafb+scwLCztQoCIme0FadWMsFXrAEAAAUA
+					AAABAQAAVXNlcnMAAAAHAAAAAQEAAGFraWhp
+					cm8ABwAAAAEBAABEZXNrdG9wAAoAAAABAQAA
+					Y2lyY2xlLnBuZwAAEAAAAAEGAAAEAAAAFAAA
+					ACQAAAA0AAAACAAAAAQDAAAxvwAAAAAAAAgA
+					AAAEAwAA2gMFAAAAAAAIAAAABAMAAHgGBQAA
+					AAAACAAAAAQDAAAhFsUCAAAAABAAAAABBgAA
+					YAAAAHAAAACAAAAAkAAAABgAAAABAgAAAQAA
+					AAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEF
+					AAAEAAAAAwMAAAYAAAAEAAAAAwMAAAIAAAAI
+					AAAABAMAAAIAAAAAAAAABAAAAAMDAAD1AQAA
+					DAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMA
+					AAAgiD06AAAACAAAAAAEAABBs8b4AwAAACQA
+					AAABAQAAOTRCNzU1RjAtQUE1NS0zQkE5LThF
+					NDMtMDEyQjk1NjIwNEFGGAAAAAECAACBAAAA
+					AQAIAO8/AAABAAgAAAAAAAAAAAABAAAAAQEA
+					AC8AAAAEAAAAAwMAAAAIACjYAAAA/v///wEA
+					AAAAAAAAEQAAAAQQAABIAAAAAAAAAAUQAACg
+					AAAAAAAAABAQAAC4AAAAAAAAAFQQAADgAAAA
+					AAAAAFUQAADsAAAAAAAAAFYQAADYAAAAAAAA
+					AAIgAACUAQAAAAAAABAgAAAUAQAAAAAAABEg
+					AABIAQAAAAAAABIgAAAoAQAAAAAAABMgAAA4
+					AQAAAAAAACAgAAB0AQAAAAAAADAgAADYAAAA
+					AAAAAAHAAAD4AAAAAAAAABHAAAAUAAAAAAAA
+					ABLAAAAIAQAAAAAAABDQAACgAQAAAAAAAA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{2.5, 7.5}</string>
+										<string>{-3, 7.5}</string>
+										<string>{-3.5, 7}</string>
+										<string>{6.5, 4}</string>
+										<string>{5, 6}</string>
+									</array>
+									<array>
+										<string>{7, -2.5}</string>
+										<string>{6.5, 4}</string>
+										<string>{-3.5, 7}</string>
+									</array>
+									<array>
+										<string>{5, -5.5}</string>
+										<string>{7, -2.5}</string>
+										<string>{-3.5, 7}</string>
+									</array>
+									<array>
+										<string>{2.5, -7}</string>
+										<string>{5, -5.5}</string>
+										<string>{-3.5, 7}</string>
+									</array>
+									<array>
+										<string>{-3, -7}</string>
+										<string>{2.5, -7}</string>
+										<string>{-3.5, 7}</string>
+									</array>
+									<array>
+										<string>{-6, -5}</string>
+										<string>{-3, -7}</string>
+										<string>{-3.5, 7}</string>
+									</array>
+									<array>
+										<string>{-7.5, -2.5}</string>
+										<string>{-6, -5}</string>
+										<string>{-3.5, 7}</string>
+									</array>
+									<array>
+										<string>{-7.5, 3}</string>
+										<string>{-7.5, -2.5}</string>
+										<string>{-3.5, 7}</string>
+									</array>
+									<array>
+										<string>{-3.5, 7}</string>
+										<string>{-5.5, 6}</string>
+										<string>{-7.5, 3}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-7.5, -7.5}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{8, 1}</string>
+									<string>{4, 3}</string>
+									<string>{0, 9}</string>
+									<string>{0, 20}</string>
+									<string>{3, 25}</string>
+									<string>{9, 29}</string>
+									<string>{20, 29}</string>
+									<string>{25, 26}</string>
+									<string>{29, 20}</string>
+									<string>{28, 7}</string>
+									<string>{25, 3}</string>
+									<string>{20, 0}</string>
+									<string>{9, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>parts</string>
+					<key>SHSpriteName</key>
+					<string>circle</string>
+					<key>SheetImage</key>
+					<string>gear_parts.png</string>
+					<key>SheetImage-HD</key>
+					<string>gear_parts-hd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{4, 70}, {15, 15}}</string>
+						<key>Frame-HD</key>
+						<string>{{8, 140}, {30, 30}}</string>
+						<key>Image</key>
+						<string>gear_parts.png</string>
+						<key>Image-HD</key>
+						<string>gear_parts-hd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>circle</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/akihiro/Desktop/circle.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../../../../Desktop/circle.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {30, 30}}</string>
+						<key>OriginalSize</key>
+						<string>{30, 30}</string>
+						<key>Position</key>
+						<string>{8, 140}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{15, 15}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>gear</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va7gCAAAAAAQQMAAAAMxK2xqhWUDnthw1
+					lvdEu/RsM68duMXrb3OMd8la/I7TqAEAAAUA
+					AAABAQAAVXNlcnMAAAAHAAAAAQEAAGFraWhp
+					cm8ABwAAAAEBAABEZXNrdG9wAAgAAAABAQAA
+					Z2Vhci5wbmcQAAAAAQYAAAQAAAAUAAAAJAAA
+					ADQAAAAIAAAABAMAADG/AAAAAAAACAAAAAQD
+					AADaAwUAAAAAAAgAAAAEAwAAeAYFAAAAAAAI
+					AAAABAMAAONZxAIAAAAAEAAAAAEGAABcAAAA
+					bAAAAHwAAACMAAAAGAAAAAECAAABAAAAAAAA
+					AA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQA
+					AAADAwAABgAAAAQAAAADAwAAAgAAAAgAAAAE
+					AwAAAgAAAAAAAAAEAAAAAwMAAPUBAAAMAAAA
+					AQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAACCI
+					PToAAAAIAAAAAAQAAEGzxvgDAAAAJAAAAAEB
+					AAA5NEI3NTVGMC1BQTU1LTNCQTktOEU0My0w
+					MTJCOTU2MjA0QUYYAAAAAQIAAIEAAAABAAgA
+					7z8AAAEACAAAAAAAAAAAAAEAAAABAQAALwAA
+					AAQAAAADAwAAAAgAKNgAAAD+////AQAAAAAA
+					AAARAAAABBAAAEQAAAAAAAAABRAAAJwAAAAA
+					AAAAEBAAALQAAAAAAAAAVBAAANwAAAAAAAAA
+					VRAAAOgAAAAAAAAAVhAAANQAAAAAAAAAAiAA
+					AJABAAAAAAAAECAAABABAAAAAAAAESAAAEQB
+					AAAAAAAAEiAAACQBAAAAAAAAEyAAADQBAAAA
+					AAAAICAAAHABAAAAAAAAMCAAANQAAAAAAAAA
+					AcAAAPQAAAAAAAAAEcAAABQAAAAAAAAAEsAA
+					AAQBAAAAAAAAENAAAJwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{2, 26.5}</string>
+										<string>{2, 28}</string>
+										<string>{-1.5, 28.5}</string>
+										<string>{-2, 28}</string>
+										<string>{-2.5, 26}</string>
+									</array>
+									<array>
+										<string>{-3, -24.5}</string>
+										<string>{-2.5, -27.5}</string>
+										<string>{1, -28}</string>
+										<string>{3, -24}</string>
+									</array>
+									<array>
+										<string>{10.5, 26.5}</string>
+										<string>{8.5, 27.5}</string>
+										<string>{5.5, 24.5}</string>
+										<string>{11, 22.5}</string>
+									</array>
+									<array>
+										<string>{-26.5, 7.5}</string>
+										<string>{-28, 6}</string>
+										<string>{-28, 3.5}</string>
+										<string>{-25.5, 2.5}</string>
+										<string>{-25, 7}</string>
+									</array>
+									<array>
+										<string>{19.5, -14.5}</string>
+										<string>{22.5, -15.5}</string>
+										<string>{24.5, -13.5}</string>
+										<string>{24.5, -11.5}</string>
+										<string>{22.5, -10}</string>
+									</array>
+									<array>
+										<string>{-20, 15}</string>
+										<string>{-23.5, 16}</string>
+										<string>{-25, 14.5}</string>
+										<string>{-25, 12.5}</string>
+										<string>{-23, 10.5}</string>
+									</array>
+									<array>
+										<string>{16.5, -22.5}</string>
+										<string>{17.5, -22}</string>
+										<string>{19, -20}</string>
+										<string>{17.5, -16.5}</string>
+										<string>{12.5, -20.5}</string>
+									</array>
+									<array>
+										<string>{3.5, 24.5}</string>
+										<string>{2, 26.5}</string>
+										<string>{-2.5, 26}</string>
+										<string>{-4, 24.5}</string>
+										<string>{3, -24}</string>
+									</array>
+									<array>
+										<string>{-6, 24.5}</string>
+										<string>{-7, 26.5}</string>
+										<string>{-8.5, 27.5}</string>
+										<string>{-11, 26.5}</string>
+										<string>{-11.5, 25.5}</string>
+										<string>{-11, 23}</string>
+									</array>
+									<array>
+										<string>{24.5, 12}</string>
+										<string>{24.5, 14.5}</string>
+										<string>{22.5, 16}</string>
+										<string>{19.5, 15}</string>
+										<string>{22.5, 10.5}</string>
+									</array>
+									<array>
+										<string>{-24.5, -0.5}</string>
+										<string>{-28, -3}</string>
+										<string>{-28, -5.5}</string>
+										<string>{-27, -6.5}</string>
+										<string>{-24, -6.5}</string>
+									</array>
+									<array>
+										<string>{7.5, -26.5}</string>
+										<string>{9.5, -26.5}</string>
+										<string>{11, -25}</string>
+										<string>{10.5, -22}</string>
+										<string>{5.5, -24}</string>
+									</array>
+									<array>
+										<string>{26.5, -6.5}</string>
+										<string>{27.5, -5.5}</string>
+										<string>{27.5, -3}</string>
+										<string>{24, -0.5}</string>
+										<string>{24, -6.5}</string>
+									</array>
+									<array>
+										<string>{24, 1}</string>
+										<string>{27.5, 3.5}</string>
+										<string>{27.5, 6}</string>
+										<string>{26.5, 7}</string>
+										<string>{24, 7}</string>
+									</array>
+									<array>
+										<string>{-19.5, -19}</string>
+										<string>{-18.5, -21.5}</string>
+										<string>{-16.5, -22}</string>
+										<string>{-14.5, -20.5}</string>
+										<string>{-18, -16.5}</string>
+									</array>
+									<array>
+										<string>{-25, -11.5}</string>
+										<string>{-25, -13.5}</string>
+										<string>{-23.5, -15}</string>
+										<string>{-20, -14.5}</string>
+										<string>{-23, -9.5}</string>
+									</array>
+									<array>
+										<string>{19, 19.5}</string>
+										<string>{18.5, 22}</string>
+										<string>{16.5, 23}</string>
+										<string>{12.5, 21}</string>
+										<string>{17.5, 17.5}</string>
+									</array>
+									<array>
+										<string>{-12, -21}</string>
+										<string>{-11.5, -25.5}</string>
+										<string>{-10, -26.5}</string>
+										<string>{-8, -26.5}</string>
+										<string>{-5, -23.5}</string>
+									</array>
+									<array>
+										<string>{-13, 21}</string>
+										<string>{-16.5, 23}</string>
+										<string>{-18, 22.5}</string>
+										<string>{-19, 21.5}</string>
+										<string>{-19, 19}</string>
+										<string>{-18, 17}</string>
+										<string>{3, -24}</string>
+									</array>
+									<array>
+										<string>{-23, 8.5}</string>
+										<string>{-25, 7}</string>
+										<string>{-25.5, 2.5}</string>
+										<string>{-24.5, 1}</string>
+										<string>{3, -24}</string>
+									</array>
+									<array>
+										<string>{22.5, -8}</string>
+										<string>{24, -6.5}</string>
+										<string>{24, -0.5}</string>
+										<string>{3, -24}</string>
+									</array>
+									<array>
+										<string>{24, 1}</string>
+										<string>{24, 7}</string>
+										<string>{22.5, 8.5}</string>
+										<string>{3, -24}</string>
+									</array>
+									<array>
+										<string>{3, -24}</string>
+										<string>{-24.5, 1}</string>
+										<string>{-24.5, -0.5}</string>
+										<string>{-24, -6.5}</string>
+										<string>{-23, -7.5}</string>
+										<string>{-5, -23.5}</string>
+										<string>{-3, -24.5}</string>
+									</array>
+									<array>
+										<string>{-18, -16.5}</string>
+										<string>{-14.5, -20.5}</string>
+										<string>{-12, -21}</string>
+										<string>{-23, -7.5}</string>
+									</array>
+									<array>
+										<string>{-20, 15}</string>
+										<string>{-23, 10.5}</string>
+										<string>{-23, 8.5}</string>
+										<string>{3, -24}</string>
+										<string>{-18, 17}</string>
+									</array>
+									<array>
+										<string>{10.5, -22}</string>
+										<string>{12.5, -20.5}</string>
+										<string>{17.5, -16.5}</string>
+										<string>{19.5, -14.5}</string>
+										<string>{22.5, -10}</string>
+										<string>{22.5, -8}</string>
+										<string>{3, -24}</string>
+										<string>{5.5, -24}</string>
+									</array>
+									<array>
+										<string>{3.5, 24.5}</string>
+										<string>{3, -24}</string>
+										<string>{22.5, 8.5}</string>
+										<string>{22.5, 10.5}</string>
+										<string>{19.5, 15}</string>
+										<string>{17.5, 17.5}</string>
+										<string>{12.5, 21}</string>
+										<string>{5.5, 24.5}</string>
+									</array>
+									<array>
+										<string>{-23, -7.5}</string>
+										<string>{-23, -9.5}</string>
+										<string>{-20, -14.5}</string>
+										<string>{-18, -16.5}</string>
+									</array>
+									<array>
+										<string>{-4, 24.5}</string>
+										<string>{-6, 24.5}</string>
+										<string>{-11, 23}</string>
+										<string>{-13, 21}</string>
+										<string>{3, -24}</string>
+									</array>
+									<array>
+										<string>{12.5, 21}</string>
+										<string>{11, 22.5}</string>
+										<string>{5.5, 24.5}</string>
+									</array>
+									<array>
+										<string>{-23, -7.5}</string>
+										<string>{-12, -21}</string>
+										<string>{-5, -23.5}</string>
+									</array>
+									<array>
+										<string>{24, -0.5}</string>
+										<string>{24, 1}</string>
+										<string>{3, -24}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-28, -28.5}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{52, 1}</string>
+									<string>{51, 5}</string>
+									<string>{48, 8}</string>
+									<string>{44, 8}</string>
+									<string>{42, 4}</string>
+									<string>{39, 2}</string>
+									<string>{34, 4}</string>
+									<string>{33, 6}</string>
+									<string>{34, 11}</string>
+									<string>{30, 15}</string>
+									<string>{23, 11}</string>
+									<string>{20, 12}</string>
+									<string>{18, 14}</string>
+									<string>{18, 19}</string>
+									<string>{20, 23}</string>
+									<string>{16, 27}</string>
+									<string>{9, 25}</string>
+									<string>{6, 28}</string>
+									<string>{6, 32}</string>
+									<string>{10, 36}</string>
+									<string>{10, 40}</string>
+									<string>{6, 43}</string>
+									<string>{3, 42}</string>
+									<string>{0, 45}</string>
+									<string>{0, 50}</string>
+									<string>{5, 52}</string>
+									<string>{7, 55}</string>
+									<string>{7, 58}</string>
+									<string>{0, 63}</string>
+									<string>{0, 68}</string>
+									<string>{2, 70}</string>
+									<string>{8, 70}</string>
+									<string>{10, 72}</string>
+									<string>{10, 76}</string>
+									<string>{6, 80}</string>
+									<string>{6, 84}</string>
+									<string>{9, 87}</string>
+									<string>{16, 86}</string>
+									<string>{20, 90}</string>
+									<string>{17, 95}</string>
+									<string>{19, 100}</string>
+									<string>{23, 101}</string>
+									<string>{27, 98}</string>
+									<string>{32, 99}</string>
+									<string>{33, 108}</string>
+									<string>{36, 110}</string>
+									<string>{40, 110}</string>
+									<string>{46, 104}</string>
+									<string>{50, 106}</string>
+									<string>{51, 112}</string>
+									<string>{58, 113}</string>
+									<string>{62, 105}</string>
+									<string>{67, 105}</string>
+									<string>{71, 110}</string>
+									<string>{75, 110}</string>
+									<string>{78, 107}</string>
+									<string>{77, 101}</string>
+									<string>{81, 98}</string>
+									<string>{89, 102}</string>
+									<string>{91, 101}</string>
+									<string>{94, 97}</string>
+									<string>{91, 90}</string>
+									<string>{95, 86}</string>
+									<string>{101, 88}</string>
+									<string>{105, 84}</string>
+									<string>{105, 80}</string>
+									<string>{101, 77}</string>
+									<string>{101, 73}</string>
+									<string>{104, 70}</string>
+									<string>{109, 70}</string>
+									<string>{111, 68}</string>
+									<string>{111, 63}</string>
+									<string>{104, 58}</string>
+									<string>{104, 55}</string>
+									<string>{111, 50}</string>
+									<string>{111, 45}</string>
+									<string>{109, 43}</string>
+									<string>{104, 43}</string>
+									<string>{101, 40}</string>
+									<string>{101, 36}</string>
+									<string>{105, 33}</string>
+									<string>{105, 28}</string>
+									<string>{101, 25}</string>
+									<string>{95, 27}</string>
+									<string>{91, 22}</string>
+									<string>{94, 18}</string>
+									<string>{93, 13}</string>
+									<string>{89, 11}</string>
+									<string>{81, 15}</string>
+									<string>{78, 12}</string>
+									<string>{77, 4}</string>
+									<string>{73, 2}</string>
+									<string>{67, 8}</string>
+									<string>{63, 8}</string>
+									<string>{60, 4}</string>
+									<string>{60, 1}</string>
+									<string>{53, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>2</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>parts</string>
+					<key>SHSpriteName</key>
+					<string>gear</string>
+					<key>SheetImage</key>
+					<string>gear_parts.png</string>
+					<key>SheetImage-HD</key>
+					<string>gear_parts-hd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{4, 4}, {56, 57}}</string>
+						<key>Frame-HD</key>
+						<string>{{8, 8}, {112, 114}}</string>
+						<key>Image</key>
+						<string>gear_parts.png</string>
+						<key>Image-HD</key>
+						<string>gear_parts-hd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>gear</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/akihiro/Desktop/gear.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../../../../Desktop/gear.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {112, 114}}</string>
+						<key>OriginalSize</key>
+						<string>{112, 114}</string>
+						<key>Position</key>
+						<string>{8, 8}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{56, 57}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+			</dict>
+			<key>Size</key>
+			<string>{128, 256}</string>
+			<key>Trim</key>
+			<true/>
+			<key>ZOrder</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>SH_ANIMATIONS_LIST</key>
+	<array/>
+	<key>SaveSettings</key>
+	<dict>
+		<key>Dither</key>
+		<false/>
+		<key>DocumentName</key>
+		<string>gear</string>
+		<key>HD2XSuffix</key>
+		<string>-ipadhd</string>
+		<key>HDSuffix</key>
+		<string>-hd</string>
+		<key>ImageFormatId</key>
+		<integer>0</integer>
+		<key>Npot</key>
+		<true/>
+		<key>PvrBpp</key>
+		<integer>1</integer>
+		<key>PvrRemoveParent</key>
+		<true/>
+		<key>ResamplingAlgorithm</key>
+		<integer>0</integer>
+		<key>ResizingOptions</key>
+		<integer>1</integer>
+		<key>SaveStyle</key>
+		<integer>0</integer>
+	</dict>
+	<key>SceneFolderSandboxBookmark</key>
+	<data>
+	Ym9va/ACAAAAAAQQMAAAAGa8cOaK27OT/QAoQAQXlDZg6nXpaqMbK8C/dTI214BhBAIA
+	AAUAAAABAQAAVXNlcnMAAAAHAAAAAQEAAGFraWhpcm8ADwAAAAEBAABjb2NvczJkeF9y
+	ZWNpcGUACAAAAAEBAABDaGFwdGVyNQgAAAABAQAAUmVjaXBlNjYJAAAAAQEAAFJlc291
+	cmNlcwAAABwAAAABBgAABAAAABQAAAAkAAAAPAAAAEwAAABMAAAAXAAAAAgAAAAEAwAA
+	Mb8AAAAAAAAIAAAABAMAANoDBQAAAAAACAAAAAQDAABSmo0CAAAAAAgAAAAEAwAApGvE
+	AgAAAAAIAAAABAMAAKhrxAIAAAAACAAAAAQDAACra8QCAAAAAAgAAAAEAwAArGvEAgAA
+	AAAcAAAAAQYAAJQAAACkAAAAtAAAAMQAAADUAAAA5AAAAPQAAAAYAAAAAQIAAAIAAAAA
+	AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAA
+	AQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAACCIPToAAAAIAAAAAAQAAEGzxvgDAAAAJAAA
+	AAEBAAA5NEI3NTVGMC1BQTU1LTNCQTktOEU0My0wMTJCOTU2MjA0QUYYAAAAAQIAAIEA
+	AAABAAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAABAAAAAMDAAAA
+	CAAotAAAAP7///8BAAAAAAAAAA4AAAAEEAAAcAAAAAAAAAAFEAAABAEAAAAAAAAQEAAA
+	KAEAAAAAAAACIAAA5AEAAAAAAAAQIAAAZAEAAAAAAAARIAAAmAEAAAAAAAASIAAAeAEA
+	AAAAAAATIAAAiAEAAAAAAAAgIAAAxAEAAAAAAAAwIAAA8AEAAAAAAAABwAAASAEAAAAA
+	AAARwAAAFAAAAAAAAAASwAAAWAEAAAAAAAAQ0AAA+AEAAAAAAAA=
+	</data>
+	<key>Version</key>
+	<string>1.8.224</string>
+</dict>
+</plist>

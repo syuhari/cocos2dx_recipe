@@ -232,12 +232,6 @@
 	</dict>
 	<dict>
 		<key>recipe</key>
-		<integer>41</integer>
-		<key>name</key>
-		<string>スプラッシュに動画を表示する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
 		<integer>42</integer>
 		<key>name</key>
 		<string>プログレスバーを表示する</string>
@@ -358,12 +352,6 @@
 	</dict>
 	<dict>
 		<key>recipe</key>
-		<integer>62</integer>
-		<key>name</key>
-		<string>広告を表示する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
 		<integer>63</integer>
 		<key>name</key>
 		<string>GoogleAnalyticsを使用する</string>
@@ -421,12 +409,6 @@
 		<integer>72</integer>
 		<key>name</key>
 		<string>簡易3D表示をする</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>73</integer>
-		<key>name</key>
-		<string>リファレンスカウンタを理解してアプリクラッシュを回避する</string>
 	</dict>
 	<dict>
 		<key>recipe</key>

@@ -9,6 +9,7 @@ class HelloWorld : public cocos2d::CCLayer, public cocos2d::extension::CCTableVi
 private:
     cocos2d::CCArray* m_pRecipes;
     void nextScene(int nIndex);
+    int m_iTouchIndex;
 public:
     virtual bool init();
     virtual ~HelloWorld();
