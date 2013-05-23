@@ -18,6 +18,9 @@ public:
     virtual bool init();
     static cocos2d::CCScene* scene();
     CREATE_FUNC(Recipe39);
+    
+    virtual bool ccTouchBegan(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent);
+    virtual void ccTouchMoved(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent);
 };
 
 #endif // _RecipeBook_Recipe39_H_

@@ -52,7 +52,9 @@ void HelloWorld::tableCellTouched(CCTableView* table, CCTableViewCell* cell)
 {
     CCDictionary* pRecipe = (CCDictionary*)m_pRecipes->objectAtIndex(cell->getIdx());
     CCString* pNo   = (CCString*)pRecipe->objectForKey("recipe");
-    this->nextScene(pNo->intValue());
+    CCString* pStep = (CCString*)pRecipe->objectForKey("step");
+    int iStep = pStep==NULL?0:pStep->intValue();
+    this->nextScene(pNo->intValue(), iStep);
 }
 
 CCSize HelloWorld::cellSizeForTable(CCTableView *table)
@@ -67,8 +69,14 @@ CCTableViewCell* HelloWorld::tableCellAtIndex(CCTableView *table, unsigned int i
     CCDictionary* pRecipe = (CCDictionary*)m_pRecipes->objectAtIndex(idx);
     CCString* pName = (CCString*)pRecipe->objectForKey("name");
     CCString* pNo   = (CCString*)pRecipe->objectForKey("recipe");
+    CCString* pStep = (CCString*)pRecipe->objectForKey("step");
     
-    CCString* string = CCString::createWithFormat("レシピ %s : %s", pNo->getCString(), pName->getCString());
+    CCString* string;
+    if (pStep!=NULL) {
+        string = CCString::createWithFormat("レシピ %s （ステップ%s）: %s", pNo->getCString(), pStep->getCString(), pName->getCString());
+    } else {
+        string = CCString::createWithFormat("レシピ %s : %s", pNo->getCString(), pName->getCString());
+    }
     CCTableViewCell *cell = table->dequeueCell();
     if (!cell) {
         cell = new CCTableViewCell();
@@ -98,7 +106,7 @@ unsigned int HelloWorld::numberOfCellsInTableView(CCTableView *table)
     return m_pRecipes->count();
 }
 
-void HelloWorld::nextScene(int nIndex) {
+void HelloWorld::nextScene(int nIndex, int iStep) {
     CCScene* scene = NULL;
     switch (nIndex) {
         case 19:
@@ -144,7 +152,11 @@ void HelloWorld::nextScene(int nIndex) {
         }
         case 39:
             // 指でなぞったラインを描画
-            scene = Recipe39::scene();
+            if (iStep==2) {
+                scene = Recipe39::scene();
+            } else {
+                scene = Recipe39_3::scene();
+            }
             break;
         case 40:
             scene = Recipe40::scene();

@@ -223,6 +223,16 @@
 		<integer>39</integer>
 		<key>name</key>
 		<string>指でなぞったラインを表示する</string>
+		<key>step</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>recipe</key>
+		<integer>39</integer>
+		<key>name</key>
+		<string>指でなそったラインを表示する</string>
+		<key>step</key>
+		<integer>3</integer>
 	</dict>
 	<dict>
 		<key>recipe</key>
