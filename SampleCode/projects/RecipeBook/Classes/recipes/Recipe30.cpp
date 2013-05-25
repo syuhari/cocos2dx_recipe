@@ -27,7 +27,7 @@ bool Recipe30::init()
 
     CCSize size = CCDirector::sharedDirector()->getWinSize();
 
-    CCSpriteBatchNode* pBatchNode = CCSpriteBatchNode::create("uhhoi.png");
+    CCSpriteBatchNode* pBatchNode = CCSpriteBatchNode::create("recipe30_uhhoi.png");
     this->addChild(pBatchNode);
     
     for (int i=0; i<300; i++) {

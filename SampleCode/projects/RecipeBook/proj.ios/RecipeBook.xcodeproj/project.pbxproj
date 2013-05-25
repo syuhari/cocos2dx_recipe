@@ -223,7 +223,7 @@
 		C3851E56174C031300D08E3F /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = C3851E54174C031300D08E3F /* card.png */; };
 		C3851E57174C031300D08E3F /* card_face.png in Resources */ = {isa = PBXBuildFile; fileRef = C3851E55174C031300D08E3F /* card_face.png */; };
 		C3851E5A174C034900D08E3F /* Recipe28.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3851E58174C034900D08E3F /* Recipe28.cpp */; };
-		C3851E5D174C049600D08E3F /* uhhoi.png in Resources */ = {isa = PBXBuildFile; fileRef = C3851E5C174C049600D08E3F /* uhhoi.png */; };
+		C3851E5D174C049600D08E3F /* recipe30_uhhoi.png in Resources */ = {isa = PBXBuildFile; fileRef = C3851E5C174C049600D08E3F /* recipe30_uhhoi.png */; };
 		C3851E60174C04BF00D08E3F /* Recipe30.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3851E5E174C04BF00D08E3F /* Recipe30.cpp */; };
 		C3851E63174C070F00D08E3F /* Recipe31.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3851E61174C070E00D08E3F /* Recipe31.cpp */; };
 		C3851EDF174C091600D08E3F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = C3851EC7174C091600D08E3F /* background.png */; };
@@ -710,7 +710,7 @@
 		C3851E55174C031300D08E3F /* card_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_face.png; sourceTree = "<group>"; };
 		C3851E58174C034900D08E3F /* Recipe28.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe28.cpp; sourceTree = "<group>"; };
 		C3851E59174C034900D08E3F /* Recipe28.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe28.h; sourceTree = "<group>"; };
-		C3851E5C174C049600D08E3F /* uhhoi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uhhoi.png; sourceTree = "<group>"; };
+		C3851E5C174C049600D08E3F /* recipe30_uhhoi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe30_uhhoi.png; sourceTree = "<group>"; };
 		C3851E5E174C04BF00D08E3F /* Recipe30.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe30.cpp; sourceTree = "<group>"; };
 		C3851E5F174C04BF00D08E3F /* Recipe30.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe30.h; sourceTree = "<group>"; };
 		C3851E61174C070E00D08E3F /* Recipe31.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe31.cpp; sourceTree = "<group>"; };
@@ -1696,7 +1696,7 @@
 		C3851E5B174C049600D08E3F /* recipe30 */ = {
 			isa = PBXGroup;
 			children = (
-				C3851E5C174C049600D08E3F /* uhhoi.png */,
+				C3851E5C174C049600D08E3F /* recipe30_uhhoi.png */,
 			);
 			path = recipe30;
 			sourceTree = "<group>";
@@ -1980,7 +1980,7 @@
 				C3851E4D174C02A300D08E3F /* test.png in Resources */,
 				C3851E56174C031300D08E3F /* card.png in Resources */,
 				C3851E57174C031300D08E3F /* card_face.png in Resources */,
-				C3851E5D174C049600D08E3F /* uhhoi.png in Resources */,
+				C3851E5D174C049600D08E3F /* recipe30_uhhoi.png in Resources */,
 				C3851EDF174C091600D08E3F /* background.png in Resources */,
 				C3851EE0174C091600D08E3F /* button.png in Resources */,
 				C3851EE1174C091600D08E3F /* buttonBackground.png in Resources */,
