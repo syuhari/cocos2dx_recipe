@@ -170,6 +170,9 @@ void HelloWorld::nextScene(int nIndex, int iStep) {
         case 44:
             scene = Recipe44::scene();
             break;
+        case 46:
+            scene = Recipe46::scene();
+            break;
         case 70:
             // 物理エンジン
             scene = Recipe70::scene();

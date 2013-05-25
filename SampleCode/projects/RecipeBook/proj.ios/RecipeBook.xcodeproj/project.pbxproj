@@ -274,6 +274,7 @@
 		C3E47735174DA5D2009063B7 /* brush.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E47733174DA5D2009063B7 /* brush.png */; };
 		C3E47736174DA5D2009063B7 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E47734174DA5D2009063B7 /* line.png */; };
 		C3E47739174DA8E8009063B7 /* Recipe39_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3E47737174DA8E7009063B7 /* Recipe39_3.cpp */; };
+		D0D18A8217506C86004FD35B /* Recipe46.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D18A8017506C86004FD35B /* Recipe46.cpp */; };
 		D41A0AD1160F154A004552AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D41A0AD0160F154A004552AE /* Default-568h@2x.png */; };
 		D446FD6E16102124000ADA7B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D446FD6D16102124000ADA7B /* Default@2x.png */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
@@ -773,6 +774,20 @@
 		C3E47734174DA5D2009063B7 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
 		C3E47737174DA8E7009063B7 /* Recipe39_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe39_3.cpp; sourceTree = "<group>"; };
 		C3E47738174DA8E8009063B7 /* Recipe39_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe39_3.h; sourceTree = "<group>"; };
+		D0D18A8017506C86004FD35B /* Recipe46.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe46.cpp; sourceTree = "<group>"; };
+		D0D18A8117506C86004FD35B /* Recipe46.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe46.h; sourceTree = "<group>"; };
+		D0D190EF17507067004FD35B /* AndroidManifest.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AndroidManifest.xml; sourceTree = "<group>"; };
+		D0D1916F17507068004FD35B /* build_native.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_native.sh; sourceTree = "<group>"; };
+		D0D1917817507068004FD35B /* Android.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		D0D1917917507068004FD35B /* Application.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Application.mk; sourceTree = "<group>"; };
+		D0D1917B17507068004FD35B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D0D1944C1750706B004FD35B /* project.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = project.properties; sourceTree = "<group>"; };
+		D0D1944D1750706B004FD35B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		D0D194501750706B004FD35B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D0D194521750706B004FD35B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D0D194541750706B004FD35B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D0D194561750706B004FD35B /* strings.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		D0D1945B1750706B004FD35B /* RecipeBook.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = RecipeBook.java; sourceTree = "<group>"; };
 		D41A0AD0160F154A004552AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../proj.ios/Default-568h@2x.png"; sourceTree = "<group>"; };
 		D446FD6D16102124000ADA7B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../proj.ios/Default@2x.png"; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -1319,6 +1334,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D0D190EB17507067004FD35B /* proj.android */,
 				15A3D87E1682F7B3002FB0C5 /* cocos2dx.xcodeproj */,
 				15A3D8871682F7D5002FB0C5 /* Box2D */,
 				15A3D93A1682F7F9002FB0C5 /* chipmunk */,
@@ -1625,6 +1641,8 @@
 				C337F03C174C56B5007C10DB /* outfile.c */,
 				C337F033174C55CB007C10DB /* Recipe88.cpp */,
 				C337F034174C55CB007C10DB /* Recipe88.h */,
+				D0D18A8017506C86004FD35B /* Recipe46.cpp */,
+				D0D18A8117506C86004FD35B /* Recipe46.h */,
 			);
 			name = recipes;
 			path = ../Classes/recipes;
@@ -1767,6 +1785,114 @@
 				C3E47734174DA5D2009063B7 /* line.png */,
 			);
 			path = recipe39;
+			sourceTree = "<group>";
+		};
+		D0D190EB17507067004FD35B /* proj.android */ = {
+			isa = PBXGroup;
+			children = (
+				D0D190EF17507067004FD35B /* AndroidManifest.xml */,
+				D0D1916F17507068004FD35B /* build_native.sh */,
+				D0D1917717507068004FD35B /* jni */,
+				D0D1944C1750706B004FD35B /* project.properties */,
+				D0D1944D1750706B004FD35B /* README.md */,
+				D0D1944E1750706B004FD35B /* res */,
+				D0D194571750706B004FD35B /* src */,
+			);
+			name = proj.android;
+			path = ../proj.android;
+			sourceTree = "<group>";
+		};
+		D0D1917717507068004FD35B /* jni */ = {
+			isa = PBXGroup;
+			children = (
+				D0D1917817507068004FD35B /* Android.mk */,
+				D0D1917917507068004FD35B /* Application.mk */,
+				D0D1917A17507068004FD35B /* hellocpp */,
+			);
+			path = jni;
+			sourceTree = "<group>";
+		};
+		D0D1917A17507068004FD35B /* hellocpp */ = {
+			isa = PBXGroup;
+			children = (
+				D0D1917B17507068004FD35B /* main.cpp */,
+			);
+			path = hellocpp;
+			sourceTree = "<group>";
+		};
+		D0D1944E1750706B004FD35B /* res */ = {
+			isa = PBXGroup;
+			children = (
+				D0D1944F1750706B004FD35B /* drawable-hdpi */,
+				D0D194511750706B004FD35B /* drawable-ldpi */,
+				D0D194531750706B004FD35B /* drawable-mdpi */,
+				D0D194551750706B004FD35B /* values */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		D0D1944F1750706B004FD35B /* drawable-hdpi */ = {
+			isa = PBXGroup;
+			children = (
+				D0D194501750706B004FD35B /* icon.png */,
+			);
+			path = "drawable-hdpi";
+			sourceTree = "<group>";
+		};
+		D0D194511750706B004FD35B /* drawable-ldpi */ = {
+			isa = PBXGroup;
+			children = (
+				D0D194521750706B004FD35B /* icon.png */,
+			);
+			path = "drawable-ldpi";
+			sourceTree = "<group>";
+		};
+		D0D194531750706B004FD35B /* drawable-mdpi */ = {
+			isa = PBXGroup;
+			children = (
+				D0D194541750706B004FD35B /* icon.png */,
+			);
+			path = "drawable-mdpi";
+			sourceTree = "<group>";
+		};
+		D0D194551750706B004FD35B /* values */ = {
+			isa = PBXGroup;
+			children = (
+				D0D194561750706B004FD35B /* strings.xml */,
+			);
+			path = values;
+			sourceTree = "<group>";
+		};
+		D0D194571750706B004FD35B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D0D194581750706B004FD35B /* jp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		D0D194581750706B004FD35B /* jp */ = {
+			isa = PBXGroup;
+			children = (
+				D0D194591750706B004FD35B /* syuhari */,
+			);
+			path = jp;
+			sourceTree = "<group>";
+		};
+		D0D194591750706B004FD35B /* syuhari */ = {
+			isa = PBXGroup;
+			children = (
+				D0D1945A1750706B004FD35B /* RecipeBook */,
+			);
+			path = syuhari;
+			sourceTree = "<group>";
+		};
+		D0D1945A1750706B004FD35B /* RecipeBook */ = {
+			isa = PBXGroup;
+			children = (
+				D0D1945B1750706B004FD35B /* RecipeBook.java */,
+			);
+			path = RecipeBook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2112,6 +2238,7 @@
 				C337F0DC174C8692007C10DB /* CCTestLayer.cpp in Sources */,
 				C337F0E4174C8A1C007C10DB /* Recipe39.cpp in Sources */,
 				C3E47739174DA8E8009063B7 /* Recipe39_3.cpp in Sources */,
+				D0D18A8217506C86004FD35B /* Recipe46.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2160,7 +2287,10 @@
 				);
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries\"",
+					"\"$(SRCROOT)/../proj.android/obj/local/armeabi\"",
+				);
 				OTHER_CFLAGS = "-O2";
 				PRODUCT_NAME = RecipeBook;
 				PROVISIONING_PROFILE = "";
@@ -2204,7 +2334,10 @@
 				);
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries\"",
+					"\"$(SRCROOT)/../proj.android/obj/local/armeabi\"",
+				);
 				PRODUCT_NAME = RecipeBook;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
