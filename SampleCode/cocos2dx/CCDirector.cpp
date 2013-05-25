@@ -759,8 +759,11 @@ void CCDirector::showStats(void)
                 m_uFrames = 0;
                 m_fAccumDt = 0;
                 
-                //sprintf(m_pszFPS, "%.1f", m_fFrameRate);
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
                 sprintf(m_pszFPS, "%.1f %.1f", m_fFrameRate, CCDirector::getAvailableMegaBytes());
+#else
+                sprintf(m_pszFPS, "%.1f", m_fFrameRate);
+#endif
                 m_pFPSLabel->setString(m_pszFPS);
                 
                 sprintf(m_pszFPS, "%4lu", (unsigned long)g_uNumberOfDraws);
@@ -983,6 +986,7 @@ void CCDisplayLinkDirector::setAnimationInterval(double dValue)
     }    
 }
 
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
 // add for memory function
 #include <sys/sysctl.h>
 #import <mach/mach.h>
@@ -1011,6 +1015,7 @@ double CCDirector::getAvailableMegaBytes()
 {
     return CCDirector::getAvailableKiloBytes() / 1024.0;
 }
+#endif
 
 NS_CC_END
 
