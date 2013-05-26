@@ -36,8 +36,14 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
 ../../Classes/LevelHelper/Utilities/LHObject.cpp \
 ../../Classes/Player/SSPlayer.cpp \
 ../../Classes/recipes/CCTestLayer.cpp \
+../../Classes/recipes/DictationManager.cpp \
 ../../Classes/recipes/ModalLayer.cpp \
+../../Classes/recipes/Recipe03to16.cpp \
+../../Classes/recipes/Recipe15.cpp \
 ../../Classes/recipes/Recipe19.cpp \
+../../Classes/recipes/Recipe21.cpp \
+../../Classes/recipes/Recipe22.cpp \
+../../Classes/recipes/Recipe24.cpp \
 ../../Classes/recipes/Recipe26.cpp \
 ../../Classes/recipes/Recipe28.cpp \
 ../../Classes/recipes/Recipe30.cpp \
@@ -56,6 +62,7 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
 ../../Classes/recipes/Recipe70.cpp \
 ../../Classes/recipes/Recipe72.cpp \
 ../../Classes/recipes/Recipe74.cpp \
+../../Classes/recipes/Recipe75.cpp \
 ../../Classes/recipes/Recipe80.cpp \
 ../../Classes/recipes/Recipe81.cpp \
 ../../Classes/recipes/Recipe82.cpp \

@@ -1,5 +1,6 @@
 #include "HelloWorldScene.h"
 #include "scenes.h"
+#include <iomanip>
 
 USING_NS_CC;
 USING_NS_CC_EXT;
@@ -109,12 +110,27 @@ unsigned int HelloWorld::numberOfCellsInTableView(CCTableView *table)
 }
 
 void HelloWorld::nextScene(int nIndex, int iStep) {
+    stringstream ss;
+    ss << "recipes/recipe" << setfill('0') << setw(2) << nIndex;
+    std::vector<std::string> searchPath;
+    searchPath.push_back(ss.str());
+    CCFileUtils::sharedFileUtils()->setSearchPaths(searchPath);
+
     CCScene* scene = NULL;
     switch (nIndex) {
         case 0:
+        {
+            searchPath.clear();
+            for (int i=3; i<=16; i++) {
+                ss.str("");
+                ss << "recipes/recipe" << setfill('0') << setw(2) << i;
+                searchPath.push_back(ss.str());
+            }
+            CCFileUtils::sharedFileUtils()->setSearchPaths(searchPath);
             // レシピ03-16 チュートリアル
             scene = Recipe03to16::scene();
             break;
+        }
         case 15:
             // CCCallFunc アクションの使い方
             scene = Recipe15::scene();
@@ -250,7 +266,7 @@ void HelloWorld::nextScene(int nIndex, int iStep) {
         default:
             break;
     }
-    
+
     if (scene!=NULL) {
         CCDirector::sharedDirector()->replaceScene(scene);
     }
