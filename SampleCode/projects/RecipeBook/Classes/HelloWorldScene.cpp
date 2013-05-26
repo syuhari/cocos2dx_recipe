@@ -74,6 +74,8 @@ CCTableViewCell* HelloWorld::tableCellAtIndex(CCTableView *table, unsigned int i
     CCString* string;
     if (pStep!=NULL) {
         string = CCString::createWithFormat("レシピ %s （ステップ%s）: %s", pNo->getCString(), pStep->getCString(), pName->getCString());
+    } else if (pNo->isEqual(CCString::create("0"))) {
+        string = pName;
     } else {
         string = CCString::createWithFormat("レシピ %s : %s", pNo->getCString(), pName->getCString());
     }
@@ -109,8 +111,28 @@ unsigned int HelloWorld::numberOfCellsInTableView(CCTableView *table)
 void HelloWorld::nextScene(int nIndex, int iStep) {
     CCScene* scene = NULL;
     switch (nIndex) {
+        case 0:
+            // レシピ03-16 チュートリアル
+            scene = Recipe03to16::scene();
+            break;
+        case 15:
+            // CCCallFunc アクションの使い方
+            scene = Recipe15::scene();
+            break;
         case 19:
             scene = Recipe19::scene();
+            break;
+        case 21:
+            // 配列を使用する
+            scene = Recipe21::scene();
+            break;
+        case 22:
+            // 辞書を使用する
+            scene = Recipe22::scene();
+            break;
+        case 24:
+            // デバッグ用にログを出力する
+            scene = Recipe24::scene();
             break;
         case 25:
             // TODO
@@ -184,6 +206,10 @@ void HelloWorld::nextScene(int nIndex, int iStep) {
         case 74:
             // タイルマップ
             scene = Recipe74::scene();
+            break;
+        case 75:
+            // デリゲートメソッド
+            scene = Recipe75::scene();
             break;
         case 80:
             // テクスチャアトラス

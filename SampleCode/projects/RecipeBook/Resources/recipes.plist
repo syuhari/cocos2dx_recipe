@@ -4,111 +4,17 @@
 <array>
 	<dict>
 		<key>recipe</key>
-		<integer>1</integer>
+		<integer>0</integer>
 		<key>name</key>
-		<string>開発環境を構築する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>2</integer>
-		<key>name</key>
-		<string>iOSとAndroidに対応したプロジェクトを作成する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>3</integer>
-		<key>name</key>
-		<string>画像を表示する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>4</integer>
-		<key>name</key>
-		<string>画像を動かす</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>5</integer>
-		<key>name</key>
-		<string>画像を消す</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>6</integer>
-		<key>name</key>
-		<string>背景色を変更する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>7</integer>
-		<key>name</key>
-		<string>タップに反応させる</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>8</integer>
-		<key>name</key>
-		<string>衝突を判定する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>9</integer>
-		<key>name</key>
-		<string>処理をスケジュールして実行する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>10</integer>
-		<key>name</key>
-		<string>ボタンを作成する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>11</integer>
-		<key>name</key>
-		<string>トグルボタンを作成する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>12</integer>
-		<key>name</key>
-		<string>文字を表示する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>13</integer>
-		<key>name</key>
-		<string>色々なアニメーションをさせる</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>14</integer>
-		<key>name</key>
-		<string>アニメーションに変化をつけて見栄えをよくする</string>
+		<string>レシピ 3 〜 16 チュートリアル</string>
 	</dict>
 	<dict>
 		<key>recipe</key>
 		<integer>15</integer>
 		<key>name</key>
 		<string>アニメーションのタイミングで処理を実行する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>16</integer>
-		<key>name</key>
-		<string>パラパラ漫画のようなアニメーションを作成する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>17</integer>
-		<key>name</key>
-		<string>シーンの切換に変化をつける</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>18</integer>
-		<key>name</key>
-		<string>Cocos2d-iPhoneから移植する</string>
+		<key>step</key>
+		<integer>2</integer>
 	</dict>
 	<dict>
 		<key>recipe</key>
@@ -127,12 +33,6 @@
 		<integer>22</integer>
 		<key>name</key>
 		<string>辞書を使用する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>23</integer>
-		<key>name</key>
-		<string>便利なマクロを使用する</string>
 	</dict>
 	<dict>
 		<key>recipe</key>
@@ -353,12 +253,6 @@
 		<integer>60</integer>
 		<key>name</key>
 		<string>OSに依存する部分の処理を分ける</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>61</integer>
-		<key>name</key>
-		<string>課金処理を実装する</string>
 	</dict>
 	<dict>
 		<key>recipe</key>

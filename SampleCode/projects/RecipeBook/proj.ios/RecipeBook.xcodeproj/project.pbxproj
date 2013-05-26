@@ -147,6 +147,26 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		7855E0E1153FEF240059DD9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7855E0DF153FEF240059DD9A /* Default.png */; };
+		78A406C01750825500A675E2 /* Recipe15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78A406BE1750825500A675E2 /* Recipe15.cpp */; };
+		78A406C5175088CF00A675E2 /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A406C2175088CF00A675E2 /* hamburger.png */; };
+		78A406C6175088CF00A675E2 /* monkey01.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A406C3175088CF00A675E2 /* monkey01.png */; };
+		78A406C7175088CF00A675E2 /* monkey02.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A406C4175088CF00A675E2 /* monkey02.png */; };
+		78A406E21750D75100A675E2 /* button_close_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A406E01750D75100A675E2 /* button_close_pressed.png */; };
+		78A406E31750D75100A675E2 /* button_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A406E11750D75100A675E2 /* button_close.png */; };
+		78A406EF1750D9D800A675E2 /* button_check_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A406ED1750D9D800A675E2 /* button_check_off.png */; };
+		78A406F01750D9D800A675E2 /* button_check_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A406EE1750D9D800A675E2 /* button_check_on.png */; };
+		78A406F91750F04A00A675E2 /* Recipe03to16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78A406F71750F04700A675E2 /* Recipe03to16.cpp */; };
+		78A4070117510D7D00A675E2 /* animations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78A406FB17510D7D00A675E2 /* animations.plist */; };
+		78A4070217510D7D00A675E2 /* monkey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78A406FC17510D7D00A675E2 /* monkey.plist */; };
+		78A4070317510D7D00A675E2 /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A406FD17510D7D00A675E2 /* monkey.png */; };
+		78A4070417510D7D00A675E2 /* monkey03.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A406FE17510D7D00A675E2 /* monkey03.png */; };
+		78A4070517510D7D00A675E2 /* monkey04.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A406FF17510D7D00A675E2 /* monkey04.png */; };
+		78A4070617510D7D00A675E2 /* monkey05.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A4070017510D7D00A675E2 /* monkey05.png */; };
+		78BB75FD1751DE9100249FB9 /* Recipe21.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78BB75FB1751DE9100249FB9 /* Recipe21.cpp */; };
+		78BB76001751E03600249FB9 /* Recipe22.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78BB75FE1751E03600249FB9 /* Recipe22.cpp */; };
+		78BB76031751E69100249FB9 /* Recipe24.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78BB76011751E69100249FB9 /* Recipe24.cpp */; };
+		78BB76061751F71700249FB9 /* Recipe75.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78BB76041751F71700249FB9 /* Recipe75.cpp */; };
+		78BB76091751FCF400249FB9 /* DictationManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78BB76071751FCF200249FB9 /* DictationManager.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -585,6 +605,33 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7855E0DF153FEF240059DD9A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		78A406BE1750825500A675E2 /* Recipe15.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe15.cpp; sourceTree = "<group>"; };
+		78A406BF1750825500A675E2 /* Recipe15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe15.h; sourceTree = "<group>"; };
+		78A406C2175088CF00A675E2 /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hamburger.png; path = recipe03/hamburger.png; sourceTree = "<group>"; };
+		78A406C3175088CF00A675E2 /* monkey01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkey01.png; path = recipe03/monkey01.png; sourceTree = "<group>"; };
+		78A406C4175088CF00A675E2 /* monkey02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkey02.png; path = recipe03/monkey02.png; sourceTree = "<group>"; };
+		78A406E01750D75100A675E2 /* button_close_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_close_pressed.png; path = recipe10/button_close_pressed.png; sourceTree = "<group>"; };
+		78A406E11750D75100A675E2 /* button_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_close.png; path = recipe10/button_close.png; sourceTree = "<group>"; };
+		78A406ED1750D9D800A675E2 /* button_check_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_check_off.png; path = recipe11/button_check_off.png; sourceTree = "<group>"; };
+		78A406EE1750D9D800A675E2 /* button_check_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_check_on.png; path = recipe11/button_check_on.png; sourceTree = "<group>"; };
+		78A406F71750F04700A675E2 /* Recipe03to16.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe03to16.cpp; sourceTree = "<group>"; };
+		78A406F81750F04800A675E2 /* Recipe03to16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe03to16.h; sourceTree = "<group>"; };
+		78A406FB17510D7D00A675E2 /* animations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = animations.plist; path = recipe16/animations.plist; sourceTree = "<group>"; };
+		78A406FC17510D7D00A675E2 /* monkey.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = monkey.plist; path = recipe16/monkey.plist; sourceTree = "<group>"; };
+		78A406FD17510D7D00A675E2 /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkey.png; path = recipe16/monkey.png; sourceTree = "<group>"; };
+		78A406FE17510D7D00A675E2 /* monkey03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkey03.png; path = recipe16/monkey03.png; sourceTree = "<group>"; };
+		78A406FF17510D7D00A675E2 /* monkey04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkey04.png; path = recipe16/monkey04.png; sourceTree = "<group>"; };
+		78A4070017510D7D00A675E2 /* monkey05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkey05.png; path = recipe16/monkey05.png; sourceTree = "<group>"; };
+		78BB75FB1751DE9100249FB9 /* Recipe21.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe21.cpp; sourceTree = "<group>"; };
+		78BB75FC1751DE9100249FB9 /* Recipe21.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe21.h; sourceTree = "<group>"; };
+		78BB75FE1751E03600249FB9 /* Recipe22.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe22.cpp; sourceTree = "<group>"; };
+		78BB75FF1751E03600249FB9 /* Recipe22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe22.h; sourceTree = "<group>"; };
+		78BB76011751E69100249FB9 /* Recipe24.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe24.cpp; sourceTree = "<group>"; };
+		78BB76021751E69100249FB9 /* Recipe24.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe24.h; sourceTree = "<group>"; };
+		78BB76041751F71700249FB9 /* Recipe75.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe75.cpp; sourceTree = "<group>"; };
+		78BB76051751F71700249FB9 /* Recipe75.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe75.h; sourceTree = "<group>"; };
+		78BB76071751FCF200249FB9 /* DictationManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DictationManager.cpp; sourceTree = "<group>"; };
+		78BB76081751FCF300249FB9 /* DictationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictationManager.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -1367,6 +1414,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		78A406C11750880400A675E2 /* recipe03 */ = {
+			isa = PBXGroup;
+			children = (
+				78A406C3175088CF00A675E2 /* monkey01.png */,
+				78A406C4175088CF00A675E2 /* monkey02.png */,
+				78A406C2175088CF00A675E2 /* hamburger.png */,
+			);
+			name = recipe03;
+			sourceTree = "<group>";
+		};
+		78A406DF1750D6ED00A675E2 /* recipe10 */ = {
+			isa = PBXGroup;
+			children = (
+				78A406E11750D75100A675E2 /* button_close.png */,
+				78A406E01750D75100A675E2 /* button_close_pressed.png */,
+			);
+			name = recipe10;
+			sourceTree = "<group>";
+		};
+		78A406E71750D9AF00A675E2 /* recipe11 */ = {
+			isa = PBXGroup;
+			children = (
+				78A406ED1750D9D800A675E2 /* button_check_off.png */,
+				78A406EE1750D9D800A675E2 /* button_check_on.png */,
+			);
+			name = recipe11;
+			sourceTree = "<group>";
+		};
+		78A406FA17510CEA00A675E2 /* recipe16 */ = {
+			isa = PBXGroup;
+			children = (
+				78A406FB17510D7D00A675E2 /* animations.plist */,
+				78A406FC17510D7D00A675E2 /* monkey.plist */,
+				78A406FD17510D7D00A675E2 /* monkey.png */,
+				78A406FE17510D7D00A675E2 /* monkey03.png */,
+				78A406FF17510D7D00A675E2 /* monkey04.png */,
+				78A4070017510D7D00A675E2 /* monkey05.png */,
+			);
+			name = recipe16;
+			sourceTree = "<group>";
+		};
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -1576,8 +1664,18 @@
 			children = (
 				C3851E41174BFCE000D08E3F /* RecipeBase.cpp */,
 				C3851E42174BFCE000D08E3F /* RecipeBase.h */,
+				78A406F71750F04700A675E2 /* Recipe03to16.cpp */,
+				78A406F81750F04800A675E2 /* Recipe03to16.h */,
+				78A406BE1750825500A675E2 /* Recipe15.cpp */,
+				78A406BF1750825500A675E2 /* Recipe15.h */,
 				C3851E3E174BFB5800D08E3F /* Recipe19.cpp */,
 				C3851E3F174BFB5800D08E3F /* Recipe19.h */,
+				78BB75FB1751DE9100249FB9 /* Recipe21.cpp */,
+				78BB75FC1751DE9100249FB9 /* Recipe21.h */,
+				78BB75FE1751E03600249FB9 /* Recipe22.cpp */,
+				78BB75FF1751E03600249FB9 /* Recipe22.h */,
+				78BB76011751E69100249FB9 /* Recipe24.cpp */,
+				78BB76021751E69100249FB9 /* Recipe24.h */,
 				C3851E45174C011300D08E3F /* Recipe26.cpp */,
 				C3851E46174C011300D08E3F /* Recipe26.h */,
 				C3851E58174C034900D08E3F /* Recipe28.cpp */,
@@ -1618,6 +1716,10 @@
 				C337F04B174C5E07007C10DB /* GLES-Render.h */,
 				C337F057174C7A4B007C10DB /* Recipe74.cpp */,
 				C337F058174C7A4B007C10DB /* Recipe74.h */,
+				78BB76041751F71700249FB9 /* Recipe75.cpp */,
+				78BB76051751F71700249FB9 /* Recipe75.h */,
+				78BB76071751FCF200249FB9 /* DictationManager.cpp */,
+				78BB76081751FCF300249FB9 /* DictationManager.h */,
 				C337F05A174C7BFD007C10DB /* Recipe80.cpp */,
 				C337F05B174C7BFD007C10DB /* Recipe80.h */,
 				C337F062174C7D29007C10DB /* Recipe81.cpp */,
@@ -1651,6 +1753,10 @@
 		C3851E48174C02A300D08E3F /* recipes */ = {
 			isa = PBXGroup;
 			children = (
+				78A406C11750880400A675E2 /* recipe03 */,
+				78A406DF1750D6ED00A675E2 /* recipe10 */,
+				78A406E71750D9AF00A675E2 /* recipe11 */,
+				78A406FA17510CEA00A675E2 /* recipe16 */,
 				C3851E49174C02A300D08E3F /* recipe26 */,
 				C3851E53174C031300D08E3F /* recipe28 */,
 				C3851E5B174C049600D08E3F /* recipe30 */,
@@ -2040,6 +2146,19 @@
 				C337F0E1174C86A8007C10DB /* CCTestLayer.ccbi in Resources */,
 				C3E47735174DA5D2009063B7 /* brush.png in Resources */,
 				C3E47736174DA5D2009063B7 /* line.png in Resources */,
+				78A406C5175088CF00A675E2 /* hamburger.png in Resources */,
+				78A406C6175088CF00A675E2 /* monkey01.png in Resources */,
+				78A406C7175088CF00A675E2 /* monkey02.png in Resources */,
+				78A406E21750D75100A675E2 /* button_close_pressed.png in Resources */,
+				78A406E31750D75100A675E2 /* button_close.png in Resources */,
+				78A406EF1750D9D800A675E2 /* button_check_off.png in Resources */,
+				78A406F01750D9D800A675E2 /* button_check_on.png in Resources */,
+				78A4070117510D7D00A675E2 /* animations.plist in Resources */,
+				78A4070217510D7D00A675E2 /* monkey.plist in Resources */,
+				78A4070317510D7D00A675E2 /* monkey.png in Resources */,
+				78A4070417510D7D00A675E2 /* monkey03.png in Resources */,
+				78A4070517510D7D00A675E2 /* monkey04.png in Resources */,
+				78A4070617510D7D00A675E2 /* monkey05.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2239,6 +2358,13 @@
 				C337F0E4174C8A1C007C10DB /* Recipe39.cpp in Sources */,
 				C3E47739174DA8E8009063B7 /* Recipe39_3.cpp in Sources */,
 				D0D18A8217506C86004FD35B /* Recipe46.cpp in Sources */,
+				78A406C01750825500A675E2 /* Recipe15.cpp in Sources */,
+				78A406F91750F04A00A675E2 /* Recipe03to16.cpp in Sources */,
+				78BB75FD1751DE9100249FB9 /* Recipe21.cpp in Sources */,
+				78BB76001751E03600249FB9 /* Recipe22.cpp in Sources */,
+				78BB76031751E69100249FB9 /* Recipe24.cpp in Sources */,
+				78BB76061751F71700249FB9 /* Recipe75.cpp in Sources */,
+				78BB76091751FCF400249FB9 /* DictationManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

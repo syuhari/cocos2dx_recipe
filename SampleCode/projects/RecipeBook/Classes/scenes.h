@@ -10,7 +10,12 @@
 #ifndef RecipeBook_scenes_h
 #define RecipeBook_scenes_h
 
+#include "Recipe03to16.h"
+#include "Recipe15.h"
 #include "Recipe19.h"
+#include "Recipe21.h"
+#include "Recipe22.h"
+#include "Recipe24.h"
 #include "Recipe26.h"
 #include "Recipe28.h"
 #include "Recipe30.h"
@@ -29,6 +34,7 @@
 #include "Recipe46.h"
 #include "Recipe70.h"
 #include "Recipe72.h"
+#include "Recipe75.h"
 #include "Recipe74.h"
 #include "Recipe80.h"
 #include "Recipe81.h"
