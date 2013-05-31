@@ -328,6 +328,6 @@ void HelloWorld::nextScene(int nIndex, int iStep)
     if (scene!=NULL) {
         CCDirector::sharedDirector()->replaceScene(scene);
     }else{
-        CCMessageBox("not yet implemented", "RecipeBook");
+//        CCMessageBox("not yet implemented", "RecipeBook");
     }
 }
