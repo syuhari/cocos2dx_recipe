@@ -132,6 +132,9 @@ void HelloWorld::nextScene(int nIndex, int iStep) {
             break;
         }
         case 15:
+            searchPath.clear();
+            searchPath.push_back("recipes/recipe03");
+            CCFileUtils::sharedFileUtils()->setSearchPaths(searchPath);
             // CCCallFunc アクションの使い方
             scene = Recipe15::scene();
             break;
