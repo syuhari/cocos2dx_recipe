@@ -136,7 +136,6 @@
 		1A27573F1697CF2B00504026 /* CCEditBoxImplAndroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A27573D1697CF2B00504026 /* CCEditBoxImplAndroid.cpp */; };
 		1AC3624916D4A1E8000847F2 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3624316D4A1E8000847F2 /* AppController.mm */; };
 		1AC3624B16D4A1E8000847F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3624516D4A1E8000847F2 /* main.m */; };
-		1ACB3244164770DE00914215 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACB3243164770DE00914215 /* libcurl.a */; };
 		1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */; };
 		1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */; };
 		1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B916D35E4900DB1158 /* CloseNormal.png */; };
@@ -219,7 +218,27 @@
 		C3851F2E174C199E00D08E3F /* Recipe44.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3851F2C174C199C00D08E3F /* Recipe44.cpp */; };
 		C3E47739174DA8E8009063B7 /* Recipe39_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3E47737174DA8E7009063B7 /* Recipe39_3.cpp */; };
 		D0663771175238B200A3F512 /* recipes in Resources */ = {isa = PBXBuildFile; fileRef = D0663770175238B200A3F512 /* recipes */; };
+		D07A57C417578AE4001394AF /* Recipe57.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07A57C217578AE4001394AF /* Recipe57.cpp */; };
+		D07A57C91757A636001394AF /* Recipe58_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07A57C71757A636001394AF /* Recipe58_2.cpp */; };
+		D07A57CC1757AAA5001394AF /* Recipe58_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07A57CA1757AAA4001394AF /* Recipe58_3.cpp */; };
+		D07A57D3175832BB001394AF /* Recipe52.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07A57D1175832B7001394AF /* Recipe52.cpp */; };
+		D07A57D717583A5C001394AF /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = D07A57D517583A5C001394AF /* sqlite3.c */; };
+		D07A57DA17583ACC001394AF /* Recipe60.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07A57D817583AC5001394AF /* Recipe60.cpp */; };
+		D07A57E017583BE2001394AF /* AppPlatform.mm in Sources */ = {isa = PBXBuildFile; fileRef = D07A57DF17583BDF001394AF /* AppPlatform.mm */; };
+		D07A57E417585CC1001394AF /* Recipe64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07A57E217585CBD001394AF /* Recipe64.cpp */; };
+		D07A57E917585D60001394AF /* DeviceCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = D07A57E817585D5E001394AF /* DeviceCamera.mm */; };
+		D07A57EC17585F87001394AF /* VisibleRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07A57EA17585F83001394AF /* VisibleRect.cpp */; };
+		D07A57EF17586436001394AF /* Recipe67.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07A57ED17586430001394AF /* Recipe67.cpp */; };
+		D0AF0EA117570FE400D54D49 /* Recipe45.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0AF0E9F17570FE400D54D49 /* Recipe45.cpp */; };
+		D0AF0EA4175712F000D54D49 /* MyTableViewCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0AF0EA2175712F000D54D49 /* MyTableViewCell.cpp */; };
+		D0AF0EA61757166C00D54D49 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AF0EA51757166C00D54D49 /* libcurl.a */; };
+		D0AF0EA91757169600D54D49 /* Recipe54.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0AF0EA71757169500D54D49 /* Recipe54.cpp */; };
+		D0AF0EAD175728D900D54D49 /* Recipe55.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0AF0EAB175728D800D54D49 /* Recipe55.cpp */; };
 		D0D18A8217506C86004FD35B /* Recipe46.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D18A8017506C86004FD35B /* Recipe46.cpp */; };
+		D0E67A561758D51A00C6D603 /* Recipe76.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0E67A541758D51A00C6D603 /* Recipe76.cpp */; };
+		D0E67A591758E6DB00C6D603 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0E67A5B1758E6DB00C6D603 /* Localizable.strings */; };
+		D0E67A5F1758E73400C6D603 /* Recipe77.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0E67A5D1758E73100C6D603 /* Recipe77.cpp */; };
+		D0E67A621758E96700C6D603 /* Recipe78.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0E67A601758E96600C6D603 /* Recipe78.cpp */; };
 		D41A0AD1160F154A004552AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D41A0AD0160F154A004552AE /* Default-568h@2x.png */; };
 		D446FD6E16102124000ADA7B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D446FD6D16102124000ADA7B /* Default@2x.png */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
@@ -515,7 +534,6 @@
 		1AC3624316D4A1E8000847F2 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = SOURCE_ROOT; };
 		1AC3624516D4A1E8000847F2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
 		1AC3624616D4A1E8000847F2 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = SOURCE_ROOT; };
-		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		1AFAF8B416D35DE700DB1158 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../Classes/AppDelegate.h; sourceTree = "<group>"; };
 		1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = ../Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
@@ -671,6 +689,40 @@
 		C3E47737174DA8E7009063B7 /* Recipe39_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe39_3.cpp; sourceTree = "<group>"; };
 		C3E47738174DA8E8009063B7 /* Recipe39_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe39_3.h; sourceTree = "<group>"; };
 		D0663770175238B200A3F512 /* recipes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = recipes; sourceTree = "<group>"; };
+		D07A57C217578AE4001394AF /* Recipe57.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe57.cpp; sourceTree = "<group>"; };
+		D07A57C317578AE4001394AF /* Recipe57.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe57.h; sourceTree = "<group>"; };
+		D07A57C71757A636001394AF /* Recipe58_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe58_2.cpp; sourceTree = "<group>"; };
+		D07A57C81757A636001394AF /* Recipe58_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe58_2.h; sourceTree = "<group>"; };
+		D07A57CA1757AAA4001394AF /* Recipe58_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe58_3.cpp; sourceTree = "<group>"; };
+		D07A57CB1757AAA5001394AF /* Recipe58_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe58_3.h; sourceTree = "<group>"; };
+		D07A57D1175832B7001394AF /* Recipe52.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe52.cpp; sourceTree = "<group>"; };
+		D07A57D2175832B9001394AF /* Recipe52.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe52.h; sourceTree = "<group>"; };
+		D07A57D517583A5C001394AF /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		D07A57D617583A5C001394AF /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		D07A57D817583AC5001394AF /* Recipe60.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe60.cpp; sourceTree = "<group>"; };
+		D07A57D917583AC8001394AF /* Recipe60.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe60.h; sourceTree = "<group>"; };
+		D07A57DC17583BBD001394AF /* AppPlatform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppPlatform.cpp; sourceTree = "<group>"; };
+		D07A57DD17583BC0001394AF /* AppPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppPlatform.h; sourceTree = "<group>"; };
+		D07A57DF17583BDF001394AF /* AppPlatform.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppPlatform.mm; sourceTree = "<group>"; };
+		D07A57E217585CBD001394AF /* Recipe64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe64.cpp; sourceTree = "<group>"; };
+		D07A57E317585CBF001394AF /* Recipe64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe64.h; sourceTree = "<group>"; };
+		D07A57E517585D37001394AF /* DeviceCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeviceCamera.cpp; sourceTree = "<group>"; };
+		D07A57E617585D39001394AF /* DeviceCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceCamera.h; sourceTree = "<group>"; };
+		D07A57E817585D5E001394AF /* DeviceCamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DeviceCamera.mm; sourceTree = "<group>"; };
+		D07A57EA17585F83001394AF /* VisibleRect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VisibleRect.cpp; path = ../Classes/VisibleRect.cpp; sourceTree = "<group>"; };
+		D07A57EB17585F84001394AF /* VisibleRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VisibleRect.h; path = ../Classes/VisibleRect.h; sourceTree = "<group>"; };
+		D07A57ED17586430001394AF /* Recipe67.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe67.cpp; sourceTree = "<group>"; };
+		D07A57EE17586432001394AF /* Recipe67.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe67.h; sourceTree = "<group>"; };
+		D0AF0E9F17570FE400D54D49 /* Recipe45.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe45.cpp; sourceTree = "<group>"; };
+		D0AF0EA017570FE400D54D49 /* Recipe45.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe45.h; sourceTree = "<group>"; };
+		D0AF0EA2175712F000D54D49 /* MyTableViewCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyTableViewCell.cpp; sourceTree = "<group>"; };
+		D0AF0EA3175712F000D54D49 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		D0AF0EA51757166C00D54D49 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
+		D0AF0EA71757169500D54D49 /* Recipe54.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe54.cpp; sourceTree = "<group>"; };
+		D0AF0EA81757169500D54D49 /* Recipe54.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe54.h; sourceTree = "<group>"; };
+		D0AF0EAA17571BBD00D54D49 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppMacro.h; path = ../Classes/AppMacro.h; sourceTree = "<group>"; };
+		D0AF0EAB175728D800D54D49 /* Recipe55.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe55.cpp; sourceTree = "<group>"; };
+		D0AF0EAC175728D800D54D49 /* Recipe55.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe55.h; sourceTree = "<group>"; };
 		D0D18A8017506C86004FD35B /* Recipe46.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe46.cpp; sourceTree = "<group>"; };
 		D0D18A8117506C86004FD35B /* Recipe46.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe46.h; sourceTree = "<group>"; };
 		D0D190EF17507067004FD35B /* AndroidManifest.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AndroidManifest.xml; sourceTree = "<group>"; };
@@ -685,6 +737,14 @@
 		D0D194541750706B004FD35B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		D0D194561750706B004FD35B /* strings.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
 		D0D1945B1750706B004FD35B /* RecipeBook.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = RecipeBook.java; sourceTree = "<group>"; };
+		D0E67A541758D51A00C6D603 /* Recipe76.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe76.cpp; sourceTree = "<group>"; };
+		D0E67A551758D51A00C6D603 /* Recipe76.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe76.h; sourceTree = "<group>"; };
+		D0E67A5A1758E6DB00C6D603 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0E67A5C1758E6DD00C6D603 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0E67A5D1758E73100C6D603 /* Recipe77.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe77.cpp; sourceTree = "<group>"; };
+		D0E67A5E1758E73200C6D603 /* Recipe77.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe77.h; sourceTree = "<group>"; };
+		D0E67A601758E96600C6D603 /* Recipe78.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe78.cpp; sourceTree = "<group>"; };
+		D0E67A611758E96600C6D603 /* Recipe78.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe78.h; sourceTree = "<group>"; };
 		D41A0AD0160F154A004552AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../proj.ios/Default-568h@2x.png"; sourceTree = "<group>"; };
 		D446FD6D16102124000ADA7B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../proj.ios/Default@2x.png"; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -702,8 +762,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0AF0EA61757166C00D54D49 /* libcurl.a in Frameworks */,
 				15A3DA6A1682F886002FB0C5 /* libcocos2dx.a in Frameworks */,
-				1ACB3244164770DE00914215 /* libcurl.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -1207,6 +1267,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D07A57CD17583259001394AF /* 3rd */,
 				C337F088174C8349007C10DB /* LevelHelper */,
 				C337F037174C56A7007C10DB /* Player */,
 				C3851E3D174BFB5800D08E3F /* recipes */,
@@ -1215,6 +1276,9 @@
 				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
 				1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */,
 				C3851E39174BF93A00D08E3F /* scenes.h */,
+				D0AF0EAA17571BBD00D54D49 /* AppMacro.h */,
+				D07A57EA17585F83001394AF /* VisibleRect.cpp */,
+				D07A57EB17585F84001394AF /* VisibleRect.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -1231,8 +1295,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				D0D190EB17507067004FD35B /* proj.android */,
 				15A3D87E1682F7B3002FB0C5 /* cocos2dx.xcodeproj */,
+				D0D190EB17507067004FD35B /* proj.android */,
 				15A3D8871682F7D5002FB0C5 /* Box2D */,
 				15A3D93A1682F7F9002FB0C5 /* chipmunk */,
 				15AA9C4015B7EC450033D6C2 /* Classes */,
@@ -1249,7 +1313,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1ACB3243164770DE00914215 /* libcurl.a */,
+				D0AF0EA51757166C00D54D49 /* libcurl.a */,
 				BF170DB212928DE900B8313A /* libxml2.dylib */,
 				BF170DB412928DE900B8313A /* libz.dylib */,
 				D44C620F132DFF4E0009C878 /* AudioToolbox.framework */,
@@ -1279,6 +1343,7 @@
 				D4EF949915BD2D8B00D803EB /* Icon-57.png */,
 				D4EF949D15BD2D9600D803EB /* Icon-72.png */,
 				C3851E37174BF07C00D08E3F /* recipes.plist */,
+				D0E67A5B1758E6DB00C6D603 /* Localizable.strings */,
 			);
 			name = Resources;
 			path = ../Resources;
@@ -1426,6 +1491,42 @@
 				C3851F25174C170D00D08E3F /* Recipe43.h */,
 				C3851F2C174C199C00D08E3F /* Recipe44.cpp */,
 				C3851F2D174C199D00D08E3F /* Recipe44.h */,
+				D0AF0E9F17570FE400D54D49 /* Recipe45.cpp */,
+				D0AF0EA017570FE400D54D49 /* Recipe45.h */,
+				D0D18A8017506C86004FD35B /* Recipe46.cpp */,
+				D0D18A8117506C86004FD35B /* Recipe46.h */,
+				D0AF0EA2175712F000D54D49 /* MyTableViewCell.cpp */,
+				D0AF0EA3175712F000D54D49 /* MyTableViewCell.h */,
+				D0AF0EA71757169500D54D49 /* Recipe54.cpp */,
+				D0AF0EA81757169500D54D49 /* Recipe54.h */,
+				D0AF0EAB175728D800D54D49 /* Recipe55.cpp */,
+				D0AF0EAC175728D800D54D49 /* Recipe55.h */,
+				D07A57C217578AE4001394AF /* Recipe57.cpp */,
+				D07A57C317578AE4001394AF /* Recipe57.h */,
+				D07A57C71757A636001394AF /* Recipe58_2.cpp */,
+				D07A57C81757A636001394AF /* Recipe58_2.h */,
+				D07A57CA1757AAA4001394AF /* Recipe58_3.cpp */,
+				D07A57CB1757AAA5001394AF /* Recipe58_3.h */,
+				D07A57D1175832B7001394AF /* Recipe52.cpp */,
+				D07A57D2175832B9001394AF /* Recipe52.h */,
+				D07A57D817583AC5001394AF /* Recipe60.cpp */,
+				D07A57D917583AC8001394AF /* Recipe60.h */,
+				D07A57DC17583BBD001394AF /* AppPlatform.cpp */,
+				D07A57DD17583BC0001394AF /* AppPlatform.h */,
+				D07A57DF17583BDF001394AF /* AppPlatform.mm */,
+				D07A57E217585CBD001394AF /* Recipe64.cpp */,
+				D07A57E317585CBF001394AF /* Recipe64.h */,
+				D07A57E517585D37001394AF /* DeviceCamera.cpp */,
+				D07A57E617585D39001394AF /* DeviceCamera.h */,
+				D07A57E817585D5E001394AF /* DeviceCamera.mm */,
+				D07A57ED17586430001394AF /* Recipe67.cpp */,
+				D07A57EE17586432001394AF /* Recipe67.h */,
+				D0E67A541758D51A00C6D603 /* Recipe76.cpp */,
+				D0E67A551758D51A00C6D603 /* Recipe76.h */,
+				D0E67A5D1758E73100C6D603 /* Recipe77.cpp */,
+				D0E67A5E1758E73200C6D603 /* Recipe77.h */,
+				D0E67A601758E96600C6D603 /* Recipe78.cpp */,
+				D0E67A611758E96600C6D603 /* Recipe78.h */,
 				C337F047174C5DF6007C10DB /* Recipe70.cpp */,
 				C337F048174C5DF6007C10DB /* Recipe70.h */,
 				C337F044174C5BC9007C10DB /* Recipe72.cpp */,
@@ -1461,11 +1562,27 @@
 				C337F03C174C56B5007C10DB /* outfile.c */,
 				C337F033174C55CB007C10DB /* Recipe88.cpp */,
 				C337F034174C55CB007C10DB /* Recipe88.h */,
-				D0D18A8017506C86004FD35B /* Recipe46.cpp */,
-				D0D18A8117506C86004FD35B /* Recipe46.h */,
 			);
 			name = recipes;
 			path = ../Classes/recipes;
+			sourceTree = "<group>";
+		};
+		D07A57CD17583259001394AF /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				D07A57D417583A5C001394AF /* sqlite */,
+			);
+			name = 3rd;
+			path = ../Classes/3rd;
+			sourceTree = "<group>";
+		};
+		D07A57D417583A5C001394AF /* sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				D07A57D517583A5C001394AF /* sqlite3.c */,
+				D07A57D617583A5C001394AF /* sqlite3.h */,
+			);
+			path = sqlite;
 			sourceTree = "<group>";
 		};
 		D0D190EB17507067004FD35B /* proj.android */ = {
@@ -1614,6 +1731,7 @@
 				Japanese,
 				French,
 				German,
+				ja,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -1659,6 +1777,7 @@
 				C3851E38174BF07C00D08E3F /* recipes.plist in Resources */,
 				C337F0C0174C8349007C10DB /* LICENSE_LevelHelper.txt in Resources */,
 				D0663771175238B200A3F512 /* recipes in Resources */,
+				D0E67A591758E6DB00C6D603 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1865,6 +1984,24 @@
 				78BB76031751E69100249FB9 /* Recipe24.cpp in Sources */,
 				78BB76061751F71700249FB9 /* Recipe75.cpp in Sources */,
 				78BB76091751FCF400249FB9 /* DictationManager.cpp in Sources */,
+				D0AF0EA117570FE400D54D49 /* Recipe45.cpp in Sources */,
+				D0AF0EA4175712F000D54D49 /* MyTableViewCell.cpp in Sources */,
+				D0AF0EA91757169600D54D49 /* Recipe54.cpp in Sources */,
+				D0AF0EAD175728D900D54D49 /* Recipe55.cpp in Sources */,
+				D07A57C417578AE4001394AF /* Recipe57.cpp in Sources */,
+				D07A57C91757A636001394AF /* Recipe58_2.cpp in Sources */,
+				D07A57CC1757AAA5001394AF /* Recipe58_3.cpp in Sources */,
+				D07A57D3175832BB001394AF /* Recipe52.cpp in Sources */,
+				D07A57D717583A5C001394AF /* sqlite3.c in Sources */,
+				D07A57DA17583ACC001394AF /* Recipe60.cpp in Sources */,
+				D07A57E017583BE2001394AF /* AppPlatform.mm in Sources */,
+				D07A57E417585CC1001394AF /* Recipe64.cpp in Sources */,
+				D07A57E917585D60001394AF /* DeviceCamera.mm in Sources */,
+				D07A57EC17585F87001394AF /* VisibleRect.cpp in Sources */,
+				D07A57EF17586436001394AF /* Recipe67.cpp in Sources */,
+				D0E67A561758D51A00C6D603 /* Recipe76.cpp in Sources */,
+				D0E67A5F1758E73400C6D603 /* Recipe77.cpp in Sources */,
+				D0E67A621758E96700C6D603 /* Recipe78.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1877,6 +2014,18 @@
 			targetProxy = 15A3DA681682F881002FB0C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0E67A5B1758E6DB00C6D603 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E67A5A1758E6DB00C6D603 /* en */,
+				D0E67A5C1758E6DD00C6D603 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {

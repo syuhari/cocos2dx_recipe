@@ -19,6 +19,11 @@ CCScene* RecipeBase::scene()
     return scene;
 }
 
+RecipeBase::RecipeBase() : m_stepNo(0)
+{
+    
+}
+
 bool RecipeBase::init()
 {
     if ( !CCLayer::init() )
@@ -42,4 +47,12 @@ bool RecipeBase::init()
 void RecipeBase::menuCloseCallback(CCObject* pSender)
 {
     CCDirector::sharedDirector()->replaceScene(HelloWorld::scene());
+}
+
+void RecipeBase::onEnter()
+{
+    CCLayer::onEnter();
+    if (m_stepNo == 1)  doStep1();
+    else if (m_stepNo == 2)  doStep2();
+    else if (m_stepNo == 3)  doStep3();
 }

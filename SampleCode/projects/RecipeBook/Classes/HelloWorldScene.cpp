@@ -109,7 +109,9 @@ unsigned int HelloWorld::numberOfCellsInTableView(CCTableView *table)
     return m_pRecipes->count();
 }
 
-void HelloWorld::nextScene(int nIndex, int iStep) {
+void HelloWorld::nextScene(int nIndex, int iStep)
+{
+    // レシピ毎にリソースパスを変更
     stringstream ss;
     ss << "recipes/recipe" << setfill('0') << setw(2) << nIndex;
     std::vector<std::string> searchPath;
@@ -211,8 +213,49 @@ void HelloWorld::nextScene(int nIndex, int iStep) {
         case 44:
             scene = Recipe44::scene();
             break;
+        case 45:
+            // TableView
+            scene = Recipe45::scene();
+            break;
         case 46:
+            // DrawNode
             scene = Recipe46::scene();
+            break;
+        case 52:
+            // SQLite
+            scene = Recipe52::scene();
+            break;
+        case 54:
+            // ダウンロード
+            scene = Recipe54::scene();
+            break;
+        case 55:
+            // ダウンロード進捗
+            scene = Recipe55::scene();
+            break;
+        case 57:
+            // plist
+            scene = Recipe57::scene();
+            break;
+        case 58:
+            // XML
+            if (iStep == 2) {
+                scene = Recipe58_2::scene();
+            }else{
+                scene = Recipe58_3::scene();
+            }
+            break;
+        case 60:
+            // iOS / Android
+            scene = Recipe60::scene();
+            break;
+        case 64:
+            // カメラ（デバイス）
+            scene = Recipe64::scene();
+            break;
+        case 67:
+            // ハードウェアキー
+            scene = Recipe67::scene();
             break;
         case 70:
             // 物理エンジン
@@ -229,6 +272,18 @@ void HelloWorld::nextScene(int nIndex, int iStep) {
         case 75:
             // デリゲートメソッド
             scene = Recipe75::scene();
+            break;
+        case 76:
+            // unzip
+            scene = Recipe76::scene(iStep);
+            break;
+        case 77:
+            // ローカライズ
+            scene = Recipe77::scene();
+            break;
+        case 78:
+            // 加速度センサー
+            scene = Recipe78::scene();
             break;
         case 80:
             // テクスチャアトラス
@@ -272,5 +327,7 @@ void HelloWorld::nextScene(int nIndex, int iStep) {
 
     if (scene!=NULL) {
         CCDirector::sharedDirector()->replaceScene(scene);
+    }else{
+        CCMessageBox("not yet implemented", "RecipeBook");
     }
 }

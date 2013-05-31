@@ -96,18 +96,6 @@
 	</dict>
 	<dict>
 		<key>recipe</key>
-		<integer>35</integer>
-		<key>name</key>
-		<string>マルチ解像度に対応する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>36</integer>
-		<key>name</key>
-		<string>ラベルをマルチ解像度に対応する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
 		<integer>37</integer>
 		<key>name</key>
 		<string>CCSpriteをタップ可能にする</string>
@@ -172,45 +160,9 @@
 	</dict>
 	<dict>
 		<key>recipe</key>
-		<integer>47</integer>
-		<key>name</key>
-		<string>再生可能な効果音、BGMの種類</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>48</integer>
-		<key>name</key>
-		<string>効果音を再生する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>49</integer>
-		<key>name</key>
-		<string>BGMを再生する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>50</integer>
-		<key>name</key>
-		<string>効果音の同時再生数を増やす</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>51</integer>
-		<key>name</key>
-		<string>プリファレンスデータとしてデータを保持する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
 		<integer>52</integer>
 		<key>name</key>
 		<string>SQLiteを使用する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>53</integer>
-		<key>name</key>
-		<string>データファイルを保存する</string>
 	</dict>
 	<dict>
 		<key>recipe</key>
@@ -226,12 +178,6 @@
 	</dict>
 	<dict>
 		<key>recipe</key>
-		<integer>56</integer>
-		<key>name</key>
-		<string>JSONを使用する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
 		<integer>57</integer>
 		<key>name</key>
 		<string>plistを使用する</string>
@@ -240,13 +186,17 @@
 		<key>recipe</key>
 		<integer>58</integer>
 		<key>name</key>
-		<string>XMLを使用する</string>
+		<string>XMLを使用する(CCSAXParser)</string>
+		<key>step</key>
+		<integer>2</integer>
 	</dict>
 	<dict>
 		<key>recipe</key>
-		<integer>59</integer>
+		<integer>58</integer>
 		<key>name</key>
-		<string>マクロを使用してOS毎に処理を分ける</string>
+		<string>XMLを使用する(TinyXML-2)</string>
+		<key>step</key>
+		<integer>3</integer>
 	</dict>
 	<dict>
 		<key>recipe</key>
@@ -256,45 +206,15 @@
 	</dict>
 	<dict>
 		<key>recipe</key>
-		<integer>63</integer>
-		<key>name</key>
-		<string>GoogleAnalyticsを使用する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
 		<integer>64</integer>
 		<key>name</key>
 		<string>カメラを使用する</string>
 	</dict>
 	<dict>
 		<key>recipe</key>
-		<integer>65</integer>
-		<key>name</key>
-		<string>Android 4.2のマルチユーザに対応する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>66</integer>
-		<key>name</key>
-		<string>XcodeでAndroid用のビルドを行う</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
 		<integer>67</integer>
 		<key>name</key>
 		<string>Androidのハードウェアキーを処理する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>68</integer>
-		<key>name</key>
-		<string>EclipseでC++のデバッグを行う</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>69</integer>
-		<key>name</key>
-		<string>マルチスレッド処理をする</string>
 	</dict>
 	<dict>
 		<key>recipe</key>
@@ -330,7 +250,25 @@
 		<key>recipe</key>
 		<integer>76</integer>
 		<key>name</key>
-		<string>zipファイルを展開する</string>
+		<string>zipファイルを展開する(1 file)</string>
+		<key>step</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>recipe</key>
+		<integer>76</integer>
+		<key>name</key>
+		<string>zipファイルを展開する(full)</string>
+		<key>step</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>recipe</key>
+		<integer>76</integer>
+		<key>name</key>
+		<string>zipファイルを展開する(from apk)</string>
+		<key>step</key>
+		<integer>3</integer>
 	</dict>
 	<dict>
 		<key>recipe</key>
@@ -343,12 +281,6 @@
 		<integer>78</integer>
 		<key>name</key>
 		<string>加速度センサを使用する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
-		<integer>79</integer>
-		<key>name</key>
-		<string>プロファイラで処理のボトルネックを見つける</string>
 	</dict>
 	<dict>
 		<key>recipe</key>

@@ -33,7 +33,7 @@ bool Recipe46::init()
     CCDrawNode *node = CCDrawNode::create();
     node->setPosition(ccp(origin.x + visibleSize.width/2,
                           origin.y + visibleSize.height/2));
-    addChild(node, 1, 1);
+    addChild(node, 10, 10);
 
     schedule(schedule_selector(Recipe46::updateDraw), 1);
     return true;
@@ -41,7 +41,7 @@ bool Recipe46::init()
 
 void Recipe46::updateDraw()
 {
-    CCDrawNode *node = (CCDrawNode *)getChildByTag(1);
+    CCDrawNode *node = (CCDrawNode *)getChildByTag(10);
     CCSize visibleSize = CCDirector::sharedDirector()->getVisibleSize();
     float radius = visibleSize.height/2;
     if (m_count == 0)

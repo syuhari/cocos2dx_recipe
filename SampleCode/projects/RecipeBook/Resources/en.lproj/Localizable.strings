@@ -1,0 +1,4 @@
+/* Hello Label */
+"hello_label" = "Hello World for Label";
+/* Hello Log */
+"hello_log" = "Hello World for Log";

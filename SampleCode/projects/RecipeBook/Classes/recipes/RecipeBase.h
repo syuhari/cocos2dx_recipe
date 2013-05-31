@@ -13,11 +13,19 @@
 
 class RecipeBase : public cocos2d::CCLayer
 {
+protected:
+    virtual void doStep1(){}
+    virtual void doStep2(){}
+    virtual void doStep3(){}
+    
 public:
+    RecipeBase();
     virtual bool init();
     static cocos2d::CCScene* scene();
+    virtual void onEnter();
     void menuCloseCallback(CCObject* pSender);
     CREATE_FUNC(RecipeBase);
+    CC_SYNTHESIZE(int, m_stepNo, StepNo);
 };
 
 #endif // _RecipeBook_RecipeBase_H_

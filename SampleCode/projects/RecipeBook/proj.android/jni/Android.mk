@@ -35,9 +35,12 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
 ../../Classes/LevelHelper/Utilities/LHDictionary.cpp \
 ../../Classes/LevelHelper/Utilities/LHObject.cpp \
 ../../Classes/Player/SSPlayer.cpp \
+../../Classes/recipes/AppPlatform.cpp \
 ../../Classes/recipes/CCTestLayer.cpp \
+../../Classes/recipes/DeviceCamera.cpp \
 ../../Classes/recipes/DictationManager.cpp \
 ../../Classes/recipes/ModalLayer.cpp \
+../../Classes/recipes/MyTableViewCell.cpp \
 ../../Classes/recipes/Recipe03to16.cpp \
 ../../Classes/recipes/Recipe15.cpp \
 ../../Classes/recipes/Recipe19.cpp \
@@ -58,11 +61,24 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
 ../../Classes/recipes/Recipe42.cpp \
 ../../Classes/recipes/Recipe43.cpp \
 ../../Classes/recipes/Recipe44.cpp \
+../../Classes/recipes/Recipe45.cpp \
 ../../Classes/recipes/Recipe46.cpp \
+../../Classes/recipes/Recipe52.cpp \
+../../Classes/recipes/Recipe54.cpp \
+../../Classes/recipes/Recipe55.cpp \
+../../Classes/recipes/Recipe57.cpp \
+../../Classes/recipes/Recipe58_2.cpp \
+../../Classes/recipes/Recipe58_3.cpp \
+../../Classes/recipes/Recipe60.cpp \
+../../Classes/recipes/Recipe64.cpp \
+../../Classes/recipes/Recipe67.cpp \
 ../../Classes/recipes/Recipe70.cpp \
 ../../Classes/recipes/Recipe72.cpp \
 ../../Classes/recipes/Recipe74.cpp \
 ../../Classes/recipes/Recipe75.cpp \
+../../Classes/recipes/Recipe76.cpp \
+../../Classes/recipes/Recipe77.cpp \
+../../Classes/recipes/Recipe78.cpp \
 ../../Classes/recipes/Recipe80.cpp \
 ../../Classes/recipes/Recipe81.cpp \
 ../../Classes/recipes/Recipe82.cpp \
@@ -74,6 +90,8 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
 ../../Classes/recipes/Recipe88.cpp \
 ../../Classes/recipes/RecipeBase.cpp \
 ../../Classes/recipes/TapSprite.cpp \
+../../Classes/VisibleRect.cpp \
+../../Classes/3rd/sqlite/sqlite3.c \
 ../../Classes/recipes/outfile.c
 
 LOCAL_C_INCLUDES := ${shell find $(LOCAL_PATH)/../../Classes -type d}
@@ -84,6 +102,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES += cocosdenshion_static
 LOCAL_WHOLE_STATIC_LIBRARIES += box2d_static
 LOCAL_WHOLE_STATIC_LIBRARIES += chipmunk_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocos_extension_static
+LOCAL_WHOLE_STATIC_LIBRARIES += cocos_curl_static
 
 include $(BUILD_SHARED_LIBRARY)
 
@@ -93,3 +112,4 @@ $(call import-module,CocosDenshion/android)
 $(call import-module,extensions)
 $(call import-module,external/Box2D)
 $(call import-module,external/chipmunk)
+$(call import-module,cocos2dx/platform/third_party/android/prebuilt/libcurl)

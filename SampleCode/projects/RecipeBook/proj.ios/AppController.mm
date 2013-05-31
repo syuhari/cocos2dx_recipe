@@ -38,20 +38,20 @@ static AppDelegate s_sharedApplication;
     [__glView setMultipleTouchEnabled:YES];
 
     // Use RootViewController manage EAGLView 
-    viewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
-    viewController.wantsFullScreenLayout = YES;
-    viewController.view = __glView;
+    self.rootViewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
+    self.rootViewController.wantsFullScreenLayout = YES;
+    self.rootViewController.view = __glView;
 
     // Set RootViewController to window
     if ( [[UIDevice currentDevice].systemVersion floatValue] < 6.0)
     {
         // warning: addSubView doesn't work on iOS6
-        [window addSubview: viewController.view];
+        [window addSubview: self.rootViewController.view];
     }
     else
     {
         // use this method on ios6
-        [window setRootViewController:viewController];
+        [window setRootViewController:self.rootViewController];
     }
     
     [window makeKeyAndVisible];
