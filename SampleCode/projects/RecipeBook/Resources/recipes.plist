@@ -218,12 +218,6 @@
 	</dict>
 	<dict>
 		<key>recipe</key>
-		<integer>71</integer>
-		<key>name</key>
-		<string>ゲームの一時停止処理を入れる</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
 		<integer>72</integer>
 		<key>name</key>
 		<string>簡易3D表示をする</string>
