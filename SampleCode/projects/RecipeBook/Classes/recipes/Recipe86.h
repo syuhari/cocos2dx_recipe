@@ -16,6 +16,7 @@
 class Recipe86 : public RecipeBase
 {
 public:
+    virtual bool init();
     static cocos2d::CCScene* scene();
     CREATE_FUNC(Recipe86);
 };

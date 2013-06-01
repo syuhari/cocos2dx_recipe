@@ -16,15 +16,32 @@ USING_NS_CC_EXT;
 
 CCScene* Recipe86::scene()
 {
+    CCScene *scene = CCScene::create();
+    Recipe86 *layer = Recipe86::create();
+    scene->addChild(layer);
+    
+    
+    
+    return scene;
+}
+
+bool Recipe86::init()
+{
+    if ( !RecipeBase::init() )
+    {
+        return false;
+    }
+    
     CCNodeLoaderLibrary * ccNodeLoaderLibrary = CCNodeLoaderLibrary::newDefaultCCNodeLoaderLibrary();
     ccNodeLoaderLibrary->registerCCNodeLoader("CCTestLayer", TestBuilderLoader::loader());
     CCBReader * ccbReader = new CCBReader(ccNodeLoaderLibrary);
     CCNode* node = ccbReader->readNodeGraphFromFile("CCTestLayer.ccbi");
-    CCScene * scene = CCScene::create();
+
     if(node != NULL) {
-        scene->addChild(node);
+        this->addChild(node);
     }
     ccbReader->release();
     
-    return scene;
+    return true;
 }
+
