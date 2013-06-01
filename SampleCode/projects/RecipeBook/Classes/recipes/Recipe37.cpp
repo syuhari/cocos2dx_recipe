@@ -32,7 +32,7 @@ bool Recipe37::init()
     label->setPosition(ccp(visibleSize.width/2, visibleSize.height-label->getContentSize().height));
     this->addChild(label);
     
-    TapSprite* sprite = (TapSprite*)TapSprite::create("Icon-57.png");
+    TapSprite* sprite = (TapSprite*)TapSprite::create("recipe37_uhhoi.png");
     sprite->setPosition(ccp(visibleSize.width/2, visibleSize.height/2));
     this->addChild(sprite);
     
