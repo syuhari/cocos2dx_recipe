@@ -27,7 +27,7 @@ bool Recipe26::init()
     
     CCSize size = CCDirector::sharedDirector()->getVisibleSize();
     
-    CCSprite* pSprite = CCSprite::create("test.png");
+    CCSprite* pSprite = CCSprite::create("HelloWorld.png");
     pSprite->setPosition( ccp(size.width/2, size.height/2) );
     
     CCSprite* pMask = CCSprite::create("mask_star.png");

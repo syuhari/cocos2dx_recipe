@@ -33,7 +33,7 @@ bool Recipe34::init()
     CCScrollView* pScrollView = CCScrollView::create(size);
     this->addChild(pScrollView);
     
-    CCSprite* pSprite = CCSprite::create("test.png");
+    CCSprite* pSprite = CCSprite::create("HelloWorld.png");
     pScrollView->setContainer(pSprite);
     pScrollView->setContentSize(pSprite->getContentSize());    
     pScrollView->setDelegate(this);

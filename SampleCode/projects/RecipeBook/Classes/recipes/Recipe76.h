@@ -29,8 +29,8 @@ public:
     static cocos2d::CCScene* scene(int step);
     CREATE_FUNC(Recipe76);
 
-    virtual void onEnter();
-    virtual void onExit();
+    //virtual void onEnter();
+    //virtual void onExit();
 };
 
 #endif /* defined(__RecipeBook__Recipe76__) */

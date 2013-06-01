@@ -31,7 +31,7 @@ bool Recipe78::init()
         return false;
     }
     CCPoint center = VisibleRect::center();
-    CCSprite* pSprite = CCSprite::create("L1.png");
+    CCSprite* pSprite = CCSprite::create("Default.png");
     pSprite->setPosition(center);
     addChild(pSprite, 9, 9);
 

@@ -35,7 +35,7 @@ void Recipe44::makeSprite() {
     CCSize size = CCDirector::sharedDirector()->getWinSize();
     
     // 元画像のテクスチャを作成
-    CCTexture2D *pTexture = CCTextureCache::sharedTextureCache()->addImage("tsunaget.png");
+    CCTexture2D *pTexture = CCTextureCache::sharedTextureCache()->addImage("sample.png");
     // 元画像のサイズを取得
     CCRect rect = CCRectZero;
     rect.size = pTexture->getContentSize();
@@ -63,7 +63,7 @@ void Recipe44::makeSpriteFromTexture() {
     CCSpriteFrameCache* cache = CCSpriteFrameCache::sharedSpriteFrameCache();
     cache->addSpriteFramesWithFile("texture.plist");
     
-    CCSprite* sprite = CCSprite::createWithSpriteFrameName("btn_awaset_1.png");
+    CCSprite* sprite = CCSprite::createWithSpriteFrameName("sample.png");
     CCTexture2D* pTexture = sprite->getTexture();
     
     CCRect rect = sprite->getTextureRect();
