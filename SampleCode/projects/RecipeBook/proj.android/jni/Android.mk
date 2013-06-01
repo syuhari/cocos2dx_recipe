@@ -34,6 +34,8 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
 ../../Classes/LevelHelper/Utilities/LHArray.cpp \
 ../../Classes/LevelHelper/Utilities/LHDictionary.cpp \
 ../../Classes/LevelHelper/Utilities/LHObject.cpp \
+../../Classes/CCBigImage/CCBigImage.cpp \
+../../Classes/CCBigImage/CCBigImageLayer.cpp \
 ../../Classes/Player/SSPlayer.cpp \
 ../../Classes/recipes/AppPlatform.cpp \
 ../../Classes/recipes/CCTestLayer.cpp \
@@ -47,6 +49,7 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
 ../../Classes/recipes/Recipe21.cpp \
 ../../Classes/recipes/Recipe22.cpp \
 ../../Classes/recipes/Recipe24.cpp \
+../../Classes/recipes/Recipe25.cpp \
 ../../Classes/recipes/Recipe26.cpp \
 ../../Classes/recipes/Recipe28.cpp \
 ../../Classes/recipes/Recipe30.cpp \

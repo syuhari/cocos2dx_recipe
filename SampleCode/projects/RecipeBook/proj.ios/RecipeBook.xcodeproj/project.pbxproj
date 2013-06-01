@@ -216,6 +216,9 @@
 		C3851F1E174C14F200D08E3F /* Recipe42.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3851F1C174C14F000D08E3F /* Recipe42.cpp */; };
 		C3851F26174C170E00D08E3F /* Recipe43.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3851F24174C170C00D08E3F /* Recipe43.cpp */; };
 		C3851F2E174C199E00D08E3F /* Recipe44.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3851F2C174C199C00D08E3F /* Recipe44.cpp */; };
+		C39446B21759897600AF2C26 /* CCBigImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C39446AE1759897600AF2C26 /* CCBigImage.cpp */; };
+		C39446B31759897600AF2C26 /* CCBigImageLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C39446B01759897600AF2C26 /* CCBigImageLayer.cpp */; };
+		C39446B6175989AD00AF2C26 /* Recipe25.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C39446B4175989AD00AF2C26 /* Recipe25.cpp */; };
 		C3E47739174DA8E8009063B7 /* Recipe39_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3E47737174DA8E7009063B7 /* Recipe39_3.cpp */; };
 		D0663771175238B200A3F512 /* recipes in Resources */ = {isa = PBXBuildFile; fileRef = D0663770175238B200A3F512 /* recipes */; };
 		D07A57C417578AE4001394AF /* Recipe57.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07A57C217578AE4001394AF /* Recipe57.cpp */; };
@@ -686,6 +689,12 @@
 		C3851F25174C170D00D08E3F /* Recipe43.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe43.h; sourceTree = "<group>"; };
 		C3851F2C174C199C00D08E3F /* Recipe44.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe44.cpp; sourceTree = "<group>"; };
 		C3851F2D174C199D00D08E3F /* Recipe44.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe44.h; sourceTree = "<group>"; };
+		C39446AE1759897600AF2C26 /* CCBigImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCBigImage.cpp; sourceTree = "<group>"; };
+		C39446AF1759897600AF2C26 /* CCBigImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBigImage.h; sourceTree = "<group>"; };
+		C39446B01759897600AF2C26 /* CCBigImageLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCBigImageLayer.cpp; sourceTree = "<group>"; };
+		C39446B11759897600AF2C26 /* CCBigImageLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBigImageLayer.h; sourceTree = "<group>"; };
+		C39446B4175989AD00AF2C26 /* Recipe25.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe25.cpp; sourceTree = "<group>"; };
+		C39446B5175989AD00AF2C26 /* Recipe25.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe25.h; sourceTree = "<group>"; };
 		C3E47737174DA8E7009063B7 /* Recipe39_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe39_3.cpp; sourceTree = "<group>"; };
 		C3E47738174DA8E8009063B7 /* Recipe39_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe39_3.h; sourceTree = "<group>"; };
 		D0663770175238B200A3F512 /* recipes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = recipes; sourceTree = "<group>"; };
@@ -1267,6 +1276,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C39446AD1759897600AF2C26 /* CCBigImage */,
 				D07A57CD17583259001394AF /* 3rd */,
 				C337F088174C8349007C10DB /* LevelHelper */,
 				C337F037174C56A7007C10DB /* Player */,
@@ -1459,6 +1469,8 @@
 				78BB75FF1751E03600249FB9 /* Recipe22.h */,
 				78BB76011751E69100249FB9 /* Recipe24.cpp */,
 				78BB76021751E69100249FB9 /* Recipe24.h */,
+				C39446B4175989AD00AF2C26 /* Recipe25.cpp */,
+				C39446B5175989AD00AF2C26 /* Recipe25.h */,
 				C3851E45174C011300D08E3F /* Recipe26.cpp */,
 				C3851E46174C011300D08E3F /* Recipe26.h */,
 				C3851E58174C034900D08E3F /* Recipe28.cpp */,
@@ -1565,6 +1577,18 @@
 			);
 			name = recipes;
 			path = ../Classes/recipes;
+			sourceTree = "<group>";
+		};
+		C39446AD1759897600AF2C26 /* CCBigImage */ = {
+			isa = PBXGroup;
+			children = (
+				C39446AE1759897600AF2C26 /* CCBigImage.cpp */,
+				C39446AF1759897600AF2C26 /* CCBigImage.h */,
+				C39446B01759897600AF2C26 /* CCBigImageLayer.cpp */,
+				C39446B11759897600AF2C26 /* CCBigImageLayer.h */,
+			);
+			name = CCBigImage;
+			path = ../Classes/CCBigImage;
 			sourceTree = "<group>";
 		};
 		D07A57CD17583259001394AF /* 3rd */ = {
@@ -2002,6 +2026,9 @@
 				D0E67A561758D51A00C6D603 /* Recipe76.cpp in Sources */,
 				D0E67A5F1758E73400C6D603 /* Recipe77.cpp in Sources */,
 				D0E67A621758E96700C6D603 /* Recipe78.cpp in Sources */,
+				C39446B21759897600AF2C26 /* CCBigImage.cpp in Sources */,
+				C39446B31759897600AF2C26 /* CCBigImageLayer.cpp in Sources */,
+				C39446B6175989AD00AF2C26 /* Recipe25.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

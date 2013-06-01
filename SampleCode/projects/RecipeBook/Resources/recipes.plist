@@ -54,12 +54,6 @@
 	</dict>
 	<dict>
 		<key>recipe</key>
-		<integer>27</integer>
-		<key>name</key>
-		<string>swfを読み込んでアニメーションを表示する</string>
-	</dict>
-	<dict>
-		<key>recipe</key>
 		<integer>28</integer>
 		<key>name</key>
 		<string>カードめくるアクションを実装する</string>

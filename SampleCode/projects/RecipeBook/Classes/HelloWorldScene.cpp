@@ -156,15 +156,10 @@ void HelloWorld::nextScene(int nIndex, int iStep)
             scene = Recipe24::scene();
             break;
         case 25:
-            // TODO
-            //scene = Recipe25::scene();
+            scene = Recipe25::scene();
             break;
         case 26:
             scene = Recipe26::scene();
-            break;
-        case 27:
-            // TODO
-            //scene = Recipe27::scene();
             break;
         case 28:
             scene = Recipe28::scene();

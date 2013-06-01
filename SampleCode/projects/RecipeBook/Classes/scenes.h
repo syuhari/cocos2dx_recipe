@@ -16,6 +16,7 @@
 #include "Recipe21.h"
 #include "Recipe22.h"
 #include "Recipe24.h"
+#include "Recipe25.h"
 #include "Recipe26.h"
 #include "Recipe28.h"
 #include "Recipe30.h"
