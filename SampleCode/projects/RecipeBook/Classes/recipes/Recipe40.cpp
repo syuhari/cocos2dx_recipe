@@ -30,7 +30,7 @@ bool Recipe40::init()
     CCSprite* para1 = CCSprite::create("HelloWorld.png");
     CCSprite* para2 = CCSprite::create("Default.png");
     CCSprite* para3 = CCSprite::create("CloseNormal.png");
-    CCSprite* para4 = CCSprite::create("Icon-114.png");
+    CCSprite* para4 = CCSprite::create("recipe40_uhhoi.png");
     /*
      para1->setAnchorPoint(ccp(0,1));
      para2->setAnchorPoint(ccp(0,1));
