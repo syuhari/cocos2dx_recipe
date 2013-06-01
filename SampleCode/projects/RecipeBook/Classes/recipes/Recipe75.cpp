@@ -66,6 +66,8 @@ void Recipe75::keyMenuTapped()
 {
     // 処理側に自インスタンスを設定する
     DictationManager::sharedObject()->setDelegate(this);
+    
+    CCLog("Call startListening()");
     // 処理を呼び出す
     //（処理が終わると、デリゲートメソッドがコールバックされる）
     DictationManager::sharedObject()->startListening();
