@@ -7,39 +7,39 @@
             <key>uhhoi_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{43,61},{37,57}}</string>
+                <string>{{2,2},{43,57}}</string>
                 <key>offset</key>
-                <string>{0,-4}</string>
+                <string>{-1,-4}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{9,8},{37,57}}</string>
+                <string>{{5,8},{43,57}}</string>
                 <key>sourceSize</key>
                 <string>{55,65}</string>
             </dict>
             <key>uhhoi_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,61},{39,57}}</string>
+                <string>{{47,2},{43,55}}</string>
                 <key>offset</key>
-                <string>{2,-1}</string>
+                <string>{0,-1}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{10,5},{39,57}}</string>
+                <string>{{6,6},{43,55}}</string>
                 <key>sourceSize</key>
                 <string>{55,65}</string>
             </dict>
             <key>uhhoi_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{45,57}}</string>
+                <string>{{2,61},{47,55}}</string>
                 <key>offset</key>
-                <string>{2,2}</string>
+                <string>{1,2}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{7,2},{45,57}}</string>
+                <string>{{5,3},{47,55}}</string>
                 <key>sourceSize</key>
                 <string>{55,65}</string>
             </dict>
@@ -53,7 +53,7 @@
             <key>size</key>
             <string>{128,128}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:b6cd4611abfcb93eb25cb4f3688cec87$</string>
+            <string>$TexturePacker:SmartUpdate:89b3da1b8525fddc1a872fa2588fc5a8$</string>
             <key>textureFileName</key>
             <string>uhhoi.pvr.ccz</string>
         </dict>
