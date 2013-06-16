@@ -228,6 +228,10 @@ void HelloWorld::nextScene(int nIndex, int iStep)
             // ダウンロード進捗
             scene = Recipe55::scene();
             break;
+        case 56:
+            // JSON
+            scene = Recipe56::scene();
+            break;
         case 57:
             // plist
             scene = Recipe57::scene();

@@ -69,6 +69,7 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
 ../../Classes/recipes/Recipe52.cpp \
 ../../Classes/recipes/Recipe54.cpp \
 ../../Classes/recipes/Recipe55.cpp \
+../../Classes/recipes/Recipe56.cpp \
 ../../Classes/recipes/Recipe57.cpp \
 ../../Classes/recipes/Recipe58_2.cpp \
 ../../Classes/recipes/Recipe58_3.cpp \

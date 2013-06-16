@@ -37,6 +37,7 @@
 #include "Recipe52.h"
 #include "Recipe54.h"
 #include "Recipe55.h"
+#include "Recipe56.h"
 #include "Recipe57.h"
 #include "Recipe58_2.h"
 #include "Recipe58_3.h"

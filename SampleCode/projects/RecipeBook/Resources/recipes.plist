@@ -172,6 +172,12 @@
 	</dict>
 	<dict>
 		<key>recipe</key>
+		<integer>56</integer>
+		<key>name</key>
+		<string>jsonを解析する</string>
+	</dict>
+	<dict>
+		<key>recipe</key>
 		<integer>57</integer>
 		<key>name</key>
 		<string>plistを使用する</string>

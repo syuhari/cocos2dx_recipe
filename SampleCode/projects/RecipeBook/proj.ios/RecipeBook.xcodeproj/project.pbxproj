@@ -232,6 +232,7 @@
 		D07A57E917585D60001394AF /* DeviceCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = D07A57E817585D5E001394AF /* DeviceCamera.mm */; };
 		D07A57EC17585F87001394AF /* VisibleRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07A57EA17585F83001394AF /* VisibleRect.cpp */; };
 		D07A57EF17586436001394AF /* Recipe67.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07A57ED17586430001394AF /* Recipe67.cpp */; };
+		D0912EA8176D62B300BC82D9 /* Recipe56.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0912EA6176D62B300BC82D9 /* Recipe56.cpp */; };
 		D0AF0EA117570FE400D54D49 /* Recipe45.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0AF0E9F17570FE400D54D49 /* Recipe45.cpp */; };
 		D0AF0EA4175712F000D54D49 /* MyTableViewCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0AF0EA2175712F000D54D49 /* MyTableViewCell.cpp */; };
 		D0AF0EA61757166C00D54D49 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AF0EA51757166C00D54D49 /* libcurl.a */; };
@@ -722,6 +723,9 @@
 		D07A57EB17585F84001394AF /* VisibleRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VisibleRect.h; path = ../Classes/VisibleRect.h; sourceTree = "<group>"; };
 		D07A57ED17586430001394AF /* Recipe67.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe67.cpp; sourceTree = "<group>"; };
 		D07A57EE17586432001394AF /* Recipe67.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe67.h; sourceTree = "<group>"; };
+		D0912EA6176D62B300BC82D9 /* Recipe56.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe56.cpp; sourceTree = "<group>"; };
+		D0912EA7176D62B300BC82D9 /* Recipe56.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe56.h; sourceTree = "<group>"; };
+		D0912EA9176D649F00BC82D9 /* picojson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = picojson.h; sourceTree = "<group>"; };
 		D0AF0E9F17570FE400D54D49 /* Recipe45.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe45.cpp; sourceTree = "<group>"; };
 		D0AF0EA017570FE400D54D49 /* Recipe45.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe45.h; sourceTree = "<group>"; };
 		D0AF0EA2175712F000D54D49 /* MyTableViewCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyTableViewCell.cpp; sourceTree = "<group>"; };
@@ -1513,6 +1517,8 @@
 				D0AF0EA81757169500D54D49 /* Recipe54.h */,
 				D0AF0EAB175728D800D54D49 /* Recipe55.cpp */,
 				D0AF0EAC175728D800D54D49 /* Recipe55.h */,
+				D0912EA6176D62B300BC82D9 /* Recipe56.cpp */,
+				D0912EA7176D62B300BC82D9 /* Recipe56.h */,
 				D07A57C217578AE4001394AF /* Recipe57.cpp */,
 				D07A57C317578AE4001394AF /* Recipe57.h */,
 				D07A57C71757A636001394AF /* Recipe58_2.cpp */,
@@ -1594,6 +1600,7 @@
 		D07A57CD17583259001394AF /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				D0912EA9176D649F00BC82D9 /* picojson.h */,
 				D07A57D417583A5C001394AF /* sqlite */,
 			);
 			name = 3rd;
@@ -2029,6 +2036,7 @@
 				C39446B21759897600AF2C26 /* CCBigImage.cpp in Sources */,
 				C39446B31759897600AF2C26 /* CCBigImageLayer.cpp in Sources */,
 				C39446B6175989AD00AF2C26 /* Recipe25.cpp in Sources */,
+				D0912EA8176D62B300BC82D9 /* Recipe56.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

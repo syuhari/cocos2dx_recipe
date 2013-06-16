@@ -22,7 +22,7 @@ public:
     CREATE_FUNC(Recipe54);
 
     virtual void onEnter();
-    bool getTextFromUrl(const char* url, std::vector<char> *response);
+    static bool getTextFromUrl(const char* url, std::vector<char> *response);
     void recipe54_httprequest();
     void onHttpRequestCompleted(cocos2d::CCNode *sender, void *data);
 
