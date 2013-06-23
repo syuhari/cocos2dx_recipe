@@ -752,8 +752,8 @@
 		D0D1945B1750706B004FD35B /* RecipeBook.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = RecipeBook.java; sourceTree = "<group>"; };
 		D0E67A541758D51A00C6D603 /* Recipe76.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe76.cpp; sourceTree = "<group>"; };
 		D0E67A551758D51A00C6D603 /* Recipe76.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe76.h; sourceTree = "<group>"; };
-		D0E67A5A1758E6DB00C6D603 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		D0E67A5C1758E6DD00C6D603 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0E67A5A1758E6DB00C6D603 /* en */ = {isa = PBXFileReference; explicitFileType = text; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0E67A5C1758E6DD00C6D603 /* ja */ = {isa = PBXFileReference; explicitFileType = text; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D0E67A5D1758E73100C6D603 /* Recipe77.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe77.cpp; sourceTree = "<group>"; };
 		D0E67A5E1758E73200C6D603 /* Recipe77.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe77.h; sourceTree = "<group>"; };
 		D0E67A601758E96600C6D603 /* Recipe78.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recipe78.cpp; sourceTree = "<group>"; };
